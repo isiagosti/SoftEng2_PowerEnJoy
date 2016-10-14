@@ -1,3 +1,6 @@
 # SoftEng2_PowerEnJoy
 
-Isabella Agosti, Carolina Cattivelli
+
+ **Software Engineering 2 Project - PowerEnJoy**
+ 
+ *Isabella Agosti, Carolina Cattivelli*
