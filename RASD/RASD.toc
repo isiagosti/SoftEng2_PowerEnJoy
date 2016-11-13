@@ -1,0 +1,46 @@
+\contentsline {section}{\numberline {1}INTRODUCTION}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}Description of the given problem}{4}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Goals}{5}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Glossary}{6}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Domain assumptions}{9}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Constraints}{11}{subsection.1.5}
+\contentsline {subsubsection}{\numberline {1.5.1}Regulatory policies}{11}{subsubsection.1.5.1}
+\contentsline {subsubsection}{\numberline {1.5.2}Hardware limitations}{11}{subsubsection.1.5.2}
+\contentsline {subsubsection}{\numberline {1.5.3}Interfaces with other applications}{11}{subsubsection.1.5.3}
+\contentsline {subsubsection}{\numberline {1.5.4}Parallel operation}{11}{subsubsection.1.5.4}
+\contentsline {subsection}{\numberline {1.6}Proposed system}{12}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7}Identifying stakeholders}{13}{subsection.1.7}
+\contentsline {subsection}{\numberline {1.8}Reference documents}{13}{subsection.1.8}
+\contentsline {section}{\numberline {2}ACTORS}{14}{section.2}
+\contentsline {section}{\numberline {3}REQUIREMENTS}{15}{section.3}
+\contentsline {subsection}{\numberline {3.1}Functional requirements}{15}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Nonfunctional requirements}{18}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Mobile interface}{18}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Web interface}{27}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Car}{35}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Architectural considerations}{38}{subsubsection.3.2.4}
+\contentsline {section}{\numberline {4}SCENARIOS}{39}{section.4}
+\contentsline {subsection}{\numberline {4.1}Scenario 1}{39}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Scenario 2}{39}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Scenario 3}{39}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Scenario 4}{40}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Scenario 5}{40}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Scenario 6}{40}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Scenario 7}{41}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.8}Scenario 8}{41}{subsection.4.8}
+\contentsline {section}{\numberline {5}UML MODELS}{42}{section.5}
+\contentsline {subsection}{\numberline {5.1}Use case diagram}{42}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Use case description}{43}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Class diagram}{48}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Sequence diagrams}{49}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Activity diagram}{55}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}State diagram}{55}{subsection.5.6}
+\contentsline {section}{\numberline {6}ALLOY}{56}{section.6}
+\contentsline {subsection}{\numberline {6.1}Model}{56}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Alloy result}{60}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}World generated}{61}{subsection.6.3}
+\contentsline {section}{\numberline {7}FUTURE DEVELOPMENT}{62}{section.7}
+\contentsline {section}{\numberline {8}USED TOOLS}{63}{section.8}
+\contentsline {section}{\numberline {9}HOURS OF WORK}{64}{section.9}
+\contentsline {subsection}{\numberline {9.1}Agosti Isabella}{64}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Cattivelli Carolina}{65}{subsection.9.2}

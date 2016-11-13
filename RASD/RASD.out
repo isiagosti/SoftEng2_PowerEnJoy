@@ -1,0 +1,46 @@
+\BOOKMARK [1][-]{section.1}{INTRODUCTION}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Description of the given problem}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Goals}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Glossary}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Domain assumptions}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.5}{Constraints}{section.1}% 6
+\BOOKMARK [3][-]{subsubsection.1.5.1}{Regulatory policies}{subsection.1.5}% 7
+\BOOKMARK [3][-]{subsubsection.1.5.2}{Hardware limitations}{subsection.1.5}% 8
+\BOOKMARK [3][-]{subsubsection.1.5.3}{Interfaces with other applications}{subsection.1.5}% 9
+\BOOKMARK [3][-]{subsubsection.1.5.4}{Parallel operation}{subsection.1.5}% 10
+\BOOKMARK [2][-]{subsection.1.6}{Proposed system}{section.1}% 11
+\BOOKMARK [2][-]{subsection.1.7}{Identifying stakeholders}{section.1}% 12
+\BOOKMARK [2][-]{subsection.1.8}{Reference documents}{section.1}% 13
+\BOOKMARK [1][-]{section.2}{ACTORS}{}% 14
+\BOOKMARK [1][-]{section.3}{REQUIREMENTS}{}% 15
+\BOOKMARK [2][-]{subsection.3.1}{Functional requirements}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.2}{Nonfunctional requirements}{section.3}% 17
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Mobile interface}{subsection.3.2}% 18
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Web interface}{subsection.3.2}% 19
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Car}{subsection.3.2}% 20
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Architectural considerations}{subsection.3.2}% 21
+\BOOKMARK [1][-]{section.4}{SCENARIOS}{}% 22
+\BOOKMARK [2][-]{subsection.4.1}{Scenario 1}{section.4}% 23
+\BOOKMARK [2][-]{subsection.4.2}{Scenario 2}{section.4}% 24
+\BOOKMARK [2][-]{subsection.4.3}{Scenario 3}{section.4}% 25
+\BOOKMARK [2][-]{subsection.4.4}{Scenario 4}{section.4}% 26
+\BOOKMARK [2][-]{subsection.4.5}{Scenario 5}{section.4}% 27
+\BOOKMARK [2][-]{subsection.4.6}{Scenario 6}{section.4}% 28
+\BOOKMARK [2][-]{subsection.4.7}{Scenario 7}{section.4}% 29
+\BOOKMARK [2][-]{subsection.4.8}{Scenario 8}{section.4}% 30
+\BOOKMARK [1][-]{section.5}{UML MODELS}{}% 31
+\BOOKMARK [2][-]{subsection.5.1}{Use case diagram}{section.5}% 32
+\BOOKMARK [2][-]{subsection.5.2}{Use case description}{section.5}% 33
+\BOOKMARK [2][-]{subsection.5.3}{Class diagram}{section.5}% 34
+\BOOKMARK [2][-]{subsection.5.4}{Sequence diagrams}{section.5}% 35
+\BOOKMARK [2][-]{subsection.5.5}{Activity diagram}{section.5}% 36
+\BOOKMARK [2][-]{subsection.5.6}{State diagram}{section.5}% 37
+\BOOKMARK [1][-]{section.6}{ALLOY}{}% 38
+\BOOKMARK [2][-]{subsection.6.1}{Model}{section.6}% 39
+\BOOKMARK [2][-]{subsection.6.2}{Alloy result}{section.6}% 40
+\BOOKMARK [2][-]{subsection.6.3}{World generated}{section.6}% 41
+\BOOKMARK [1][-]{section.7}{FUTURE DEVELOPMENT}{}% 42
+\BOOKMARK [1][-]{section.8}{USED TOOLS}{}% 43
+\BOOKMARK [1][-]{section.9}{HOURS OF WORK}{}% 44
+\BOOKMARK [2][-]{subsection.9.1}{Agosti Isabella}{section.9}% 45
+\BOOKMARK [2][-]{subsection.9.2}{Cattivelli Carolina}{section.9}% 46

@@ -1,0 +1,841 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.20)  13 NOV 2016 11:24
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**RASD.tex
+(./RASD.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 22 language(s) loaded.
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count88
+\float@exts=\toks15
+\float@box=\box26
+\@float@everytoks=\toks16
+\@floatcapt=\box27
+)
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.s
+ty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/generic/oberdiek/hobsub-generic.st
+y
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2016basic/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen105
+\Hy@linkcounter=\count89
+\Hy@pagecounter=\count90
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count91
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count92
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen106
+\Fld@menulength=\count93
+\Field@Width=\dimen107
+\Fld@charsize=\dimen108
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring OFF on input line 6318.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count94
+\c@Item=\count95
+\c@Hfootnote=\count96
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+\Fld@listcount=\count97
+\c@bookmark@seq@number=\count98
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip43
+) (/usr/local/texlive/2016basic/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen109
+\extrarowheight=\dimen110
+\NC@list=\toks17
+\extratabsurround=\skip44
+\backup@length=\skip45
+)
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 13.
+
+(./RASD.aux (./Introduction.aux) (./Actors.aux) (./Requirements.aux)
+(./Scenarios.aux) (./UML_models.aux) (./Alloy.aux) (./Future_development.aux)
+(./Used_tools.aux) (./Hours_of_work.aux))
+\openout1 = `RASD.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 28.
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 28.
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count99
+\scratchdimen=\dimen111
+\scratchbox=\box28
+\nofMPsegments=\count100
+\nofMParguments=\count101
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count102
+\MPscratchDim=\dimen112
+\MPnumerator=\count103
+\makeMPintoPDFobject=\count104
+\everyMPtoPDFconversion=\toks19
+) (/usr/local/texlive/2016basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box29
+ (/usr/local/texlive/2016basic/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 144.
+)
+Package hyperref Info: Link coloring ON on input line 28.
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016basic/texmf-dist/tex/generic/oberdiek/gettitlestring.st
+y
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count105
+)
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
+ (./RASD.out) (./RASD.out)
+\@outlinefile=\write3
+\openout3 = `RASD.out'.
+
+
+<Images/polimi_logo.png, id=188, 301.125pt x 301.125pt>
+File: Images/polimi_logo.png Graphic file (type png)
+
+<use Images/polimi_logo.png>
+Package pdftex.def Info: Images/polimi_logo.png used on input line 30.
+(pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 30.
+ [1
+
+{/usr/local/texlive/2016basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./
+Images/polimi_logo.png>] (./RASD.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+ [2])
+\tf@toc=\write4
+\openout4 = `RASD.toc'.
+
+
+[3]
+\openout2 = `Introduction.aux'.
+
+ (./Introduction.tex [4
+
+] [5]
+Overfull \hbox (55.45088pt too wide) in paragraph at lines 45--46
+[]\OT1/cmr/m/n/12 State: re-served/available, blocked/unlocked, ig-nited/off, p
+lugged/unplugged. 
+ []
+
+[6] [7] [8] [9] [10] [11]
+<Images/Architecture.png, id=290, 985.6825pt x 746.79pt>
+File: Images/Architecture.png Graphic file (type png)
+
+<use Images/Architecture.png>
+Package pdftex.def Info: Images/Architecture.png used on input line 148.
+(pdftex.def)             Requested size: 390.0pt x 295.4745pt.
+ [12 <./Images/Architecture.png>]) [13]
+\openout2 = `Actors.aux'.
+
+
+(./Actors.tex) [14
+
+
+]
+\openout2 = `Requirements.aux'.
+
+ (./Requirements.tex [15
+
+
+] [16]
+<Images/Mobile_homepage.png, id=316, 978.65625pt x 786.94pt>
+File: Images/Mobile_homepage.png Graphic file (type png)
+
+<use Images/Mobile_homepage.png>
+Package pdftex.def Info: Images/Mobile_homepage.png used on input line 90.
+(pdftex.def)             Requested size: 390.0pt x 313.60567pt.
+ [17] [18 <./Images/Mobile_homepage.png>]
+<Images/Mobile_registration.png, id=326, 901.3675pt x 786.94pt>
+File: Images/Mobile_registration.png Graphic file (type png)
+
+<use Images/Mobile_registration.png>
+Package pdftex.def Info: Images/Mobile_registration.png used on input line 96.
+(pdftex.def)             Requested size: 390.0pt x 340.49097pt.
+ [19 <./Images/Mobile_registration.png>]
+<Images/Mobile_password.png, id=333, 585.18625pt x 523.9575pt>
+File: Images/Mobile_password.png Graphic file (type png)
+
+<use Images/Mobile_password.png>
+Package pdftex.def Info: Images/Mobile_password.png used on input line 102.
+(pdftex.def)             Requested size: 390.0pt x 349.21086pt.
+ [20 <./Images/Mobile_password.png>]
+<Images/Mobile_personal_page.png, id=339, 584.1825pt x 523.9575pt>
+File: Images/Mobile_personal_page.png Graphic file (type png)
+
+<use Images/Mobile_personal_page.png>
+Package pdftex.def Info: Images/Mobile_personal_page.png used on input line 108
+.
+(pdftex.def)             Requested size: 390.0pt x 349.80249pt.
+ [21 <./Images/Mobile_personal_page.png>]
+<Images/Mobile_view_profile.png, id=345, 583.17876pt x 524.96124pt>
+File: Images/Mobile_view_profile.png Graphic file (type png)
+
+<use Images/Mobile_view_profile.png>
+Package pdftex.def Info: Images/Mobile_view_profile.png used on input line 114.
+
+(pdftex.def)             Requested size: 390.0pt x 351.07338pt.
+ [22 <./Images/Mobile_view_profile.png>]
+<Images/Mobile_change_info.png, id=351, 582.175pt x 524.96124pt>
+File: Images/Mobile_change_info.png Graphic file (type png)
+
+<use Images/Mobile_change_info.png>
+Package pdftex.def Info: Images/Mobile_change_info.png used on input line 120.
+(pdftex.def)             Requested size: 390.0pt x 351.68216pt.
+ [23 <./Images/Mobile_change_info.png>]
+<Images/Mobile_reservation.png, id=357, 1020.81375pt x 587.19376pt>
+File: Images/Mobile_reservation.png Graphic file (type png)
+
+<use Images/Mobile_reservation.png>
+Package pdftex.def Info: Images/Mobile_reservation.png used on input line 126.
+(pdftex.def)             Requested size: 390.0pt x 224.33656pt.
+ [24 <./Images/Mobile_reservation.png>]
+<Images/Mobile_cancel_reservation.png, id=363, 583.17876pt x 523.9575pt>
+File: Images/Mobile_cancel_reservation.png Graphic file (type png)
+
+<use Images/Mobile_cancel_reservation.png>
+Package pdftex.def Info: Images/Mobile_cancel_reservation.png used on input lin
+e 132.
+(pdftex.def)             Requested size: 390.0pt x 350.40211pt.
+ [25 <./Images/Mobile_cancel_reservation.png>] <Images/Mobile_report_issue.png,
+ id=370, 584.1825pt x 524.96124pt>
+File: Images/Mobile_report_issue.png Graphic file (type png)
+
+<use Images/Mobile_report_issue.png>
+Package pdftex.def Info: Images/Mobile_report_issue.png used on input line 138.
+
+(pdftex.def)             Requested size: 390.0pt x 350.47261pt.
+ [26 <./Images/Mobile_report_issue.png>]
+<Images/Web_homepage.png, id=376, 571.13374pt x 492.84125pt>
+File: Images/Web_homepage.png Graphic file (type png)
+
+<use Images/Web_homepage.png>
+Package pdftex.def Info: Images/Web_homepage.png used on input line 147.
+(pdftex.def)             Requested size: 390.0pt x 336.54138pt.
+ [27 <./Images/Web_homepage.png>]
+<Images/Web_registration.png, id=382, 573.14125pt x 475.7775pt>
+File: Images/Web_registration.png Graphic file (type png)
+
+<use Images/Web_registration.png>
+Package pdftex.def Info: Images/Web_registration.png used on input line 153.
+(pdftex.def)             Requested size: 390.0pt x 323.74947pt.
+ [28 <./Images/Web_registration.png>]
+<Images/Web_password.png, id=388, 571.13374pt x 518.93875pt>
+File: Images/Web_password.png Graphic file (type png)
+
+<use Images/Web_password.png>
+Package pdftex.def Info: Images/Web_password.png used on input line 159.
+(pdftex.def)             Requested size: 390.0pt x 354.36234pt.
+ [29 <./Images/Web_password.png>]
+<Images/Web_personal_page.png, id=394, 379.4175pt x 396.48125pt>
+File: Images/Web_personal_page.png Graphic file (type png)
+
+<use Images/Web_personal_page.png>
+Package pdftex.def Info: Images/Web_personal_page.png used on input line 165.
+(pdftex.def)             Requested size: 390.0pt x 407.54536pt.
+ [30 <./Images/Web_personal_page.png>]
+<Images/Web_view_profile.png, id=400, 571.13374pt x 474.77374pt>
+File: Images/Web_view_profile.png Graphic file (type png)
+
+<use Images/Web_view_profile.png>
+Package pdftex.def Info: Images/Web_view_profile.png used on input line 171.
+(pdftex.def)             Requested size: 390.0pt x 324.20383pt.
+ [31 <./Images/Web_view_profile.png>]
+<Images/Web_change_info.png, id=407, 572.1375pt x 474.77374pt>
+File: Images/Web_change_info.png Graphic file (type png)
+
+<use Images/Web_change_info.png>
+Package pdftex.def Info: Images/Web_change_info.png used on input line 177.
+(pdftex.def)             Requested size: 390.0pt x 323.63152pt.
+ [32 <./Images/Web_change_info.png>]
+<Images/Web_reservation.png, id=413, 378.41376pt x 429.605pt>
+File: Images/Web_reservation.png Graphic file (type png)
+
+<use Images/Web_reservation.png>
+Package pdftex.def Info: Images/Web_reservation.png used on input line 183.
+(pdftex.def)             Requested size: 390.0pt x 442.7603pt.
+ [33 <./Images/Web_reservation.png>]
+<Images/Web_cancel_reservation.png, id=419, 572.1375pt x 475.7775pt>
+File: Images/Web_cancel_reservation.png Graphic file (type png)
+
+<use Images/Web_cancel_reservation.png>
+Package pdftex.def Info: Images/Web_cancel_reservation.png used on input line 1
+89.
+(pdftex.def)             Requested size: 390.0pt x 324.31572pt.
+ [34 <./Images/Web_cancel_reservation.png>] <Images/Car_screen_where.png, id=42
+5, 737.75626pt x 671.50874pt>
+File: Images/Car_screen_where.png Graphic file (type png)
+
+<use Images/Car_screen_where.png>
+Package pdftex.def Info: Images/Car_screen_where.png used on input line 198.
+(pdftex.def)             Requested size: 390.0pt x 354.97577pt.
+ [35 <./Images/Car_screen_where.png>]
+<Images/Car_screen.png, id=431, 741.77126pt x 666.49pt>
+File: Images/Car_screen.png Graphic file (type png)
+
+<use Images/Car_screen.png>
+Package pdftex.def Info: Images/Car_screen.png used on input line 204.
+(pdftex.def)             Requested size: 390.0pt x 350.42097pt.
+ [36 <./Images/Car_screen.png>]
+<Images/Car_screen_destination.png, id=437, 739.76375pt x 669.50125pt>
+File: Images/Car_screen_destination.png Graphic file (type png)
+
+<use Images/Car_screen_destination.png>
+Package pdftex.def Info: Images/Car_screen_destination.png used on input line 2
+10.
+(pdftex.def)             Requested size: 390.0pt x 352.95427pt.
+ [37 <./Images/Car_screen_destination.png>]) [38]
+\openout2 = `Scenarios.aux'.
+
+ (./Scenarios.tex [39
+
+
+] [40]) [41]
+\openout2 = `UML_models.aux'.
+
+ (./UML_models.tex
+<Images/UseCase.png, id=460, 1022.82124pt x 1168.365pt>
+File: Images/UseCase.png Graphic file (type png)
+
+<use Images/UseCase.png>
+Package pdftex.def Info: Images/UseCase.png used on input line 5.
+(pdftex.def)             Requested size: 369.88582pt x 422.51866pt.
+ [42
+
+
+ <./Images/UseCase.png>]
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 14--36
+ [][] 
+ []
+
+
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 40--60
+ [][] 
+ []
+
+[43]
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 65--83
+ [][] 
+ []
+
+
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 87--108
+ [][] 
+ []
+
+[44]
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 113--133
+ [][] 
+ []
+
+[45]
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 138--160
+ [][] 
+ []
+
+[46]
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 165--187
+ [][] 
+ []
+
+<Images/Class_diagram.png, id=519, 705.63625pt x 1358.07375pt>
+File: Images/Class_diagram.png Graphic file (type png)
+
+<use Images/Class_diagram.png>
+Package pdftex.def Info: Images/Class_diagram.png used on input line 192.
+(pdftex.def)             Requested size: 288.27908pt x 554.82874pt.
+ [47]
+<Images/UserRegistration.png, id=531, 536.0025pt x 783.92876pt>
+File: Images/UserRegistration.png Graphic file (type png)
+
+<use Images/UserRegistration.png>
+Package pdftex.def Info: Images/UserRegistration.png used on input line 199.
+(pdftex.def)             Requested size: 369.654pt x 540.60236pt.
+ [48 <./Images/Class_diagram.png>]
+<Images/Login.png, id=537, 556.0775pt x 650.43pt>
+File: Images/Login.png Graphic file (type png)
+ <use Images/Login.png>
+Package pdftex.def Info: Images/Login.png used on input line 204.
+(pdftex.def)             Requested size: 398.33858pt x 465.93723pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 204--205
+ [][] 
+ []
+
+[49 <./Images/UserRegistration.png>] [50 <./Images/Login.png>]
+<Images/ViewProfile.png, id=549, 551.05875pt x 191.71625pt>
+File: Images/ViewProfile.png Graphic file (type png)
+
+<use Images/ViewProfile.png>
+Package pdftex.def Info: Images/ViewProfile.png used on input line 210.
+(pdftex.def)             Requested size: 398.33858pt x 138.58847pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 210--211
+ [][] 
+ []
+
+<Images/ManageInfo.png, id=550, 626.34pt x 593.21625pt>
+File: Images/ManageInfo.png Graphic file (type png)
+
+<use Images/ManageInfo.png>
+Package pdftex.def Info: Images/ManageInfo.png used on input line 215.
+(pdftex.def)             Requested size: 398.33858pt x 377.28554pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 215--216
+ [][] 
+ []
+
+<Images/Reservation.png, id=551, 736.7525pt x 1417.295pt>
+File: Images/Reservation.png Graphic file (type png)
+
+<use Images/Reservation.png>
+Package pdftex.def Info: Images/Reservation.png used on input line 220.
+(pdftex.def)             Requested size: 288.42279pt x 554.82874pt.
+ [51 <./Images/ViewProfile.png> <./Images/ManageInfo.png>] <Images/ReportIssue.
+png, id=558, 596.2275pt x 692.5875pt>
+File: Images/ReportIssue.png Graphic file (type png)
+
+<use Images/ReportIssue.png>
+Package pdftex.def Info: Images/ReportIssue.png used on input line 225.
+(pdftex.def)             Requested size: 384.1122pt x 446.1924pt.
+ [52 <./Images/Reservation.png>] [53 <./Images/ReportIssue.png>] <Images/Cancel
+Res.png, id=569, 596.2275pt x 742.775pt>
+File: Images/CancelRes.png Graphic file (type png)
+
+<use Images/CancelRes.png>
+Package pdftex.def Info: Images/CancelRes.png used on input line 231.
+(pdftex.def)             Requested size: 398.33858pt x 496.25127pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 231--232
+ [][] 
+ []
+
+[54 <./Images/CancelRes.png>]
+<Images/ActivityDiagram.png, id=575, 660.4675pt x 354.32375pt>
+File: Images/ActivityDiagram.png Graphic file (type png)
+
+<use Images/ActivityDiagram.png>
+Package pdftex.def Info: Images/ActivityDiagram.png used on input line 239.
+(pdftex.def)             Requested size: 412.56496pt x 221.33826pt.
+
+Overfull \hbox (22.56496pt too wide) in paragraph at lines 239--240
+ [][] 
+ []
+
+<Images/StateDiagram.png, id=576, 681.54625pt x 212.795pt>
+File: Images/StateDiagram.png Graphic file (type png)
+
+<use Images/StateDiagram.png>
+Package pdftex.def Info: Images/StateDiagram.png used on input line 245.
+(pdftex.def)             Requested size: 412.56496pt x 128.8144pt.
+
+Overfull \hbox (22.56496pt too wide) in paragraph at lines 245--246
+ [][] 
+ []
+
+) [55 <./Images/ActivityDiagram.png> <./Images/StateDiagram.png>]
+\openout2 = `Alloy.aux'.
+
+ (./Alloy.tex
+<Images/AlloyModel1.png, id=584, 576.1525pt x 604.2575pt>
+File: Images/AlloyModel1.png Graphic file (type png)
+
+<use Images/AlloyModel1.png>
+Package pdftex.def Info: Images/AlloyModel1.png used on input line 5.
+(pdftex.def)             Requested size: 398.33858pt x 417.78639pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 5--6
+ [][] 
+ []
+
+<Images/AlloyModel2.png, id=585, 487.8225pt x 500.87125pt>
+File: Images/AlloyModel2.png Graphic file (type png)
+
+<use Images/AlloyModel2.png>
+Package pdftex.def Info: Images/AlloyModel2.png used on input line 9.
+(pdftex.def)             Requested size: 398.33858pt x 408.99747pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 9--10
+ [][] 
+ []
+
+<Images/AlloyModel3.png, id=586, 442.65375pt x 593.21625pt>
+File: Images/AlloyModel3.png Graphic file (type png)
+
+<use Images/AlloyModel3.png>
+Package pdftex.def Info: Images/AlloyModel3.png used on input line 13.
+(pdftex.def)             Requested size: 398.33858pt x 533.85349pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 13--14
+ [][] 
+ []
+
+[56
+
+
+ <./Images/AlloyModel1.png>]
+<Images/AlloyModel4.png, id=592, 422.57875pt x 579.16376pt>
+File: Images/AlloyModel4.png Graphic file (type png)
+
+<use Images/AlloyModel4.png>
+Package pdftex.def Info: Images/AlloyModel4.png used on input line 17.
+(pdftex.def)             Requested size: 398.33858pt x 545.96054pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 17--18
+ [][] 
+ []
+
+[57 <./Images/AlloyModel2.png>]
+<Images/AlloyModel5.png, id=598, 565.11125pt x 307.1475pt>
+File: Images/AlloyModel5.png Graphic file (type png)
+
+<use Images/AlloyModel5.png>
+Package pdftex.def Info: Images/AlloyModel5.png used on input line 21.
+(pdftex.def)             Requested size: 398.33858pt x 216.5062pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 21--22
+ [][] 
+ []
+
+[58 <./Images/AlloyModel3.png>] [59 <./Images/AlloyModel4.png>]
+<Images/AlloyResult.png, id=610, 543.02875pt x 87.32625pt>
+File: Images/AlloyResult.png Graphic file (type png)
+
+<use Images/AlloyResult.png>
+Package pdftex.def Info: Images/AlloyResult.png used on input line 26.
+(pdftex.def)             Requested size: 398.33858pt x 64.06076pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 26--27
+ [][] 
+ []
+
+<Images/AlloyWorld.png, id=611, 561.09625pt x 1250.6725pt>
+File: Images/AlloyWorld.png Graphic file (type png)
+
+<use Images/AlloyWorld.png>
+Package pdftex.def Info: Images/AlloyWorld.png used on input line 31.
+(pdftex.def)             Requested size: 248.92078pt x 554.82874pt.
+) [60 <./Images/AlloyModel5.png> <./Images/AlloyResult.png>] [61 <./Images/Allo
+yWorld.png>]
+\openout2 = `Future_development.aux'.
+
+ (./Future_development.tex) [62
+
+
+]
+\openout2 = `Used_tools.aux'.
+
+
+(./Used_tools.tex) [63
+
+
+]
+\openout2 = `Hours_of_work.aux'.
+
+ (./Hours_of_work.tex [64
+
+
+]) [65]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
+ (./RASD.aux
+(./Introduction.aux) (./Actors.aux) (./Requirements.aux) (./Scenarios.aux)
+(./UML_models.aux) (./Alloy.aux) (./Future_development.aux) (./Used_tools.aux)
+(./Hours_of_work.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
+Package rerunfilecheck Info: File `RASD.out' has not changed.
+(rerunfilecheck)             Checksum: 79BBF984BDF7F7723302E98DA88370D0;2913.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
+ ) 
+Here is how much of TeX's memory you used:
+ 6103 strings out of 494447
+ 93485 string characters out of 6166765
+ 169053 words of memory out of 5000000
+ 9156 multiletter control sequences out of 15000+600000
+ 9973 words of font info for 35 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 29i,13n,30p,477b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/isabellaagosti/Library/texlive/2016basic/texmf-var/fonts/pk/ljfour/j
+knappen/ec/tcrm1200.600pk></usr/local/texlive/2016basic/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016basic/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016basic/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2016basic/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on RASD.pdf (65 pages, 10161427 bytes).
+PDF statistics:
+ 707 PDF objects out of 1000 (max. 8388607)
+ 547 compressed objects within 6 object streams
+ 146 named destinations out of 1000 (max. 500000)
+ 569 words of extra memory for PDF output out of 10000 (max. 10000000)
+

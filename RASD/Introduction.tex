@@ -1,0 +1,172 @@
+\section{INTRODUCTION}
+\subsection{Description of the given problem}
+We are to develop a digital management system for a car-sharing service called \textsl{PowerEnJoy}, that exclusively employs electric cars. \\
+The users will be able to interact with the system through a web or mobile application. The system will thus keep track of the users' position monitoring their GPS signal (if active), so as to be able to show them the locations of the available cars within a certain distance. In alternative, users will also be able to find all the available cars in a certain distance from an address of their choice.\\
+In order to benefit from the service, users need to register to the system by providing their credentials and payment information. Then they receive back a password via email that can be used to access the system. 
+
+\newpage
+\subsection{Goals}
+\label{Goals}
+Here are our application's goals:
+\begin{itemize}
+	\item {[G1]} Allow users to register to the system filling out a form. 
+	\item {[G2]} Allow registered users to access the system by entering their username and password.
+	\item {[G3]} Allow registered users to manage their personal information.
+	\item {[G4]} Allow registered users to find the locations of all available cars within a certain distance from their current location or from a specified address.
+	\item {[G5]} Allow registered users to reserve a single car among the available ones in a certain geographical region for up to one hour before they pick it up.
+	\item {[G6]} Allow registered users to tell the system they are nearby when they reach a car they previously reserved.
+	\item {[G7]} Allow registered users to see on a screen the amount of money they are being charged for while they are driving. 
+	\item {[G8]} Allow registered users to see on a screen a map showing all the safe areas they can park in. 
+	\item {[G9]} Allow registered users to see on a screen the discount percentage (if any) applied on their bill once the ride has ended.
+	\item {[G10]} Allow registered users to cancel a reservation paying a fee of 1 EUR.
+	\item {[G11]} Allow registered users to benefit from a discount percentage in certain cases.
+	\item {[G12]} Allow registered users to report an issue when they realize a car they reserved is somehow broken.
+\end{itemize}
+\newpage
+\subsection{Glossary}
+\begin{itemize}
+	\item \textbf{User}: a person that interacts with the PowerEnJoy mobile or web application to register into the system.
+	\item \textbf{Registered user}: a person already registered into the system that interacts with the PowerEnJoy mobile or web application in various ways. A registered user is identified by the following information:
+	\begin{itemize}
+		\item Name.
+		\item Surname.
+		\item Email.
+		\item Username.
+		\item Password.
+		\item Card number.
+		\item Card code.
+		\item Driver license code.
+		\item Address.
+	\end{itemize}
+	\item \textbf{Car-sharing service}: model of car rental where people rent cars for short periods of time, often by the hour.
+	\item \textbf{Electric car}: automobile that is propelled by one or more electric motors, using electrical energy stored in rechargeable batteries. It is identified by:
+	\begin{itemize}
+		\item Location.
+		\item State: reserved/available, blocked/unlocked, ignited/off, plugged/unplugged.
+		\item Screen.
+		\item Weight sensors.
+		\item Doors sensors: to define if they are open or closed.
+		\item Battery level. 
+	\end{itemize}
+	\item \textbf{Registration}: the act or process of filling out an online form providing credentials and payment information. 
+	\item \textbf{Log-in}: process by which a user gains access to the system by identifying and authenticating himself/herself. The user credentials are some form of "username" and a matching "password".
+	\item \textbf{Reservation}: arrangement through which a registered user holds a car for his use at a later time. It is identified by:
+	\begin{itemize}
+		\item Begin time.
+		\item End time.
+		\item Corresponding reserved car.
+		\item User who made the reservation.
+	\end{itemize}
+	\item \textbf{Available car}: car that has not been chosen in any user reservation.
+	\item \textbf{Reserved car}: car that has been chosen by a user in a reservation. 
+	\item \textbf{Location/address}: position of a car or a user, identified by longitude and latitude. 
+	\item \textbf{Geographical region}: circular region whose center is the user's position and whose radius is calculated as a certain distance from the center. It shows all the available cars and their position on the map. 
+	\item \textbf{Safe area}: area whose position is predefined by the management system. Safe areas are the only ones in which a user is allowed to park a car. 
+	\item \textbf{Special safe area}: special type of safe area where a car can be recharged.
+	\item \textbf{Ride}: it starts when the user ignites the car engine and ends when the car is parked in a safe area (or special safe area) and the user exits the car. It is identified by: 
+	\begin{itemize}
+		\item Begin time.
+		\item End time.
+		\item Used car.
+		\item User that is driving the car.
+		\item Total price the user has to pay.
+	\end{itemize}
+	\item \textbf{Discount percentage}: discount applied on the user's last ride only in certain circumstances. 
+	\item \textbf{Low battery}: the car's battery level is considered "low" when less than 20\%. 
+	\item \textbf{Discount1}: a 10\% discount is applied on the ride if the user takes at least two other passengers onto the car.
+	\item \textbf{Discount2}: a 20\% discount is applied on the ride if a car is left with no more than 50\% of the battery empty.
+	\item \textbf{Discount3}: a 30\% discount is applied on the ride if a car is left at a special parking area where it can be recharged and the user takes care of  plugging it into the power grid.
+	\item \textbf{Overcharge}: a 30\% overcharge is applied on the ride if a car is left at more than 3 KM from the nearest power grid station or with more than 80\% of the battery empty.
+\end{itemize}
+\newpage
+\subsection{Domain assumptions}
+\label{Domain_properties}
+We suppose that these properties hold in the analyzed world:
+\begin{itemize}
+	\item All GPSs always give the right position.
+	\item Addresses entered by the users always exist.
+	\item Cars GPS cannot be switched off.
+	\item All PowerEnJoy cars are registered into the system.
+	\item Cars plates are unique.
+	\item All car doors are closed during the ride.
+	\item Users own a smartphone with Internet connection.
+	\item Users can associate to their profile only prepaid and credit cards.
+	\item The information provided by the user at the moment of his/her registration is valid.
+	\item If a car is no longer associated with the PowerEnJoy service its information is deleted from the database.
+	\item All PowerEnJoy cars are in order.
+	\item The system, once a ride ends, is able to identify if discounts or overcharges are to be applied on the total price.
+	\item The system charges a registered user for a 1EUR fee if he/she cancels a reservation.
+	\item The system charges a registered user for thirty cents for each minute he/her spends driving the PowerEnJoy car. 
+	\item The system charges a user for a 1EUR fee if he/she does not pick-up the car within one hour from the reservation. 
+	\item PowerEnJoy cars are real.
+	\item If a registered user leaves the car in a non-safe area, he/she continues paying for the reservation until the system notifies him/her via email after ten minutes. The car is no longer reserved and the registered user must pay a fee for abandoning the car.
+	\item There isn't any already existent PowerEnJoy system.
+	\item The car monitors are touch-screen.
+	\item If a car is parked in a special safe area is always plugged into the power grid.
+\end{itemize}
+\newpage
+\subsection{Constraints}
+\subsubsection{Regulatory policies}
+Upon registration the user must consent to the processing of his/her personal data (name, surname, position...). The company is so committed to handle each user's sensitive data in accordance with his/her privacy.
+\subsubsection{Hardware limitations}
+\begin{itemize}
+	\item Mobile application:
+	\begin{itemize}
+		\item User:
+		\begin{itemize}
+			\item 3G connection.
+			\item Space for app package.
+		\end{itemize}
+		\item Registered user:
+		\begin{itemize}
+			\item 3G connection.
+			\item Space for app package.
+			\item GPS, in order to benefit from the option "Current location".
+		\end{itemize}
+	\end{itemize}
+	\item Web application:
+	\begin{itemize}
+		\item Flash Player 11.2 or later.
+		\item Modern browser with AJAX support.
+		\item Ethernet or Wi-Fi connection.
+	\end{itemize}
+\end{itemize}
+\subsubsection{Interfaces with other applications}
+\begin{itemize}
+	\item Interface with email providers such as Gmail, Hotmail, Libero, Yahoo and so on.
+	\item One interface for each platform (iOS, Android, Windows Phone...). 
+\end{itemize}
+\subsubsection{Parallel operation}
+The application supports parallel operations from different users (registered or not).
+\newpage
+\subsection{Proposed system}
+The system will be presented both as a web and a mobile application with a client-server architecture, based on the MVC pattern. It will not be integrated with an already existing system. 
+
+The server will generate web pages and a database system will be used to store user's information. On the other side, clients will interact with the application (mobile or web) through a Graphical User Interface.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{Architecture}
+\end{figure}
+\newpage
+\subsection{Identifying stakeholders}
+\begin{itemize}
+	\item Primary: 
+	\begin{itemize}
+		\item \textbf{Users} (both registered and not registered), since they are the ones that benefit the most from using the application and the car-sharing service.
+	\end{itemize}  
+	\item Secondary: 
+	\begin{itemize}
+		\item \textbf{Other passengers}, since they benefit from the service via someone else.
+	\end{itemize}
+	\item Tertiary:
+	\begin{itemize}
+		\item \textbf{Electric energy providers}, since they are affected by the service's introduction, but they do not directly use it.
+		\item \textbf{Electric cars retailers}, since they are affected by the service's introduction, but they do not directly use it.
+		\item \textbf{The city of Milan}, since it is influenced by the service's adoption.
+	\end{itemize}
+\end{itemize}
+\subsection{Reference documents}
+\begin{itemize}
+	\item Specifications document: Assignments AA 2016-2017.pdf
+	\item RASD sample from Oct. 20 lecture.pdf
+\end{itemize}
