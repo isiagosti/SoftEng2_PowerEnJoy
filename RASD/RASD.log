@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.20)  13 NOV 2016 16:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.20)  13 NOV 2016 20:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -384,7 +384,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ] [5]
 Overfull \hbox (55.45088pt too wide) in paragraph at lines 45--46
 []\OT1/cmr/m/n/12 State: re-served/available, blocked/unlocked, ig-nited/off, p
-lugged/unplugged. 
+lugged/unplugged,
  []
 
 [6] [7] [8] [9] [10] [11]
@@ -824,7 +824,7 @@ Here is how much of TeX's memory you used:
  9156 multiletter control sequences out of 15000+600000
  9973 words of font info for 35 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 29i,13n,30p,477b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,13n,30p,477b,440s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/isabellaagosti/Library/texlive/2016basic/texmf-var/fonts/pk/ljfour/j
 knappen/ec/tcrm1200.600pk></usr/local/texlive/2016basic/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/ty
@@ -832,7 +832,7 @@ pe1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016basic/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016basic/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2016basic/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on RASD.pdf (65 pages, 10181054 bytes).
+Output written on RASD.pdf (65 pages, 10154343 bytes).
 PDF statistics:
  707 PDF objects out of 1000 (max. 8388607)
  547 compressed objects within 6 object streams
