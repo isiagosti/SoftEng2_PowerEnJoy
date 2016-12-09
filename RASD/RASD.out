@@ -17,30 +17,33 @@
 \BOOKMARK [2][-]{subsection.3.2}{Nonfunctional requirements}{section.3}% 17
 \BOOKMARK [3][-]{subsubsection.3.2.1}{Mobile interface}{subsection.3.2}% 18
 \BOOKMARK [3][-]{subsubsection.3.2.2}{Web interface}{subsection.3.2}% 19
-\BOOKMARK [3][-]{subsubsection.3.2.3}{Car}{subsection.3.2}% 20
-\BOOKMARK [3][-]{subsubsection.3.2.4}{Architectural considerations}{subsection.3.2}% 21
-\BOOKMARK [1][-]{section.4}{SCENARIOS}{}% 22
-\BOOKMARK [2][-]{subsection.4.1}{Scenario 1}{section.4}% 23
-\BOOKMARK [2][-]{subsection.4.2}{Scenario 2}{section.4}% 24
-\BOOKMARK [2][-]{subsection.4.3}{Scenario 3}{section.4}% 25
-\BOOKMARK [2][-]{subsection.4.4}{Scenario 4}{section.4}% 26
-\BOOKMARK [2][-]{subsection.4.5}{Scenario 5}{section.4}% 27
-\BOOKMARK [2][-]{subsection.4.6}{Scenario 6}{section.4}% 28
-\BOOKMARK [2][-]{subsection.4.7}{Scenario 7}{section.4}% 29
-\BOOKMARK [2][-]{subsection.4.8}{Scenario 8}{section.4}% 30
-\BOOKMARK [1][-]{section.5}{UML MODELS}{}% 31
-\BOOKMARK [2][-]{subsection.5.1}{Use case diagram}{section.5}% 32
-\BOOKMARK [2][-]{subsection.5.2}{Use case description}{section.5}% 33
-\BOOKMARK [2][-]{subsection.5.3}{Class diagram}{section.5}% 34
-\BOOKMARK [2][-]{subsection.5.4}{Sequence diagrams}{section.5}% 35
-\BOOKMARK [2][-]{subsection.5.5}{Activity diagram}{section.5}% 36
-\BOOKMARK [2][-]{subsection.5.6}{State diagram}{section.5}% 37
-\BOOKMARK [1][-]{section.6}{ALLOY}{}% 38
-\BOOKMARK [2][-]{subsection.6.1}{Model}{section.6}% 39
-\BOOKMARK [2][-]{subsection.6.2}{Alloy result}{section.6}% 40
-\BOOKMARK [2][-]{subsection.6.3}{World generated}{section.6}% 41
-\BOOKMARK [1][-]{section.7}{FUTURE DEVELOPMENT}{}% 42
-\BOOKMARK [1][-]{section.8}{USED TOOLS}{}% 43
-\BOOKMARK [1][-]{section.9}{HOURS OF WORK}{}% 44
-\BOOKMARK [2][-]{subsection.9.1}{Agosti Isabella}{section.9}% 45
-\BOOKMARK [2][-]{subsection.9.2}{Cattivelli Carolina}{section.9}% 46
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Employee}{subsection.3.2}% 20
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Car}{subsection.3.2}% 21
+\BOOKMARK [3][-]{subsubsection.3.2.5}{Architectural considerations}{subsection.3.2}% 22
+\BOOKMARK [1][-]{section.4}{SCENARIOS}{}% 23
+\BOOKMARK [2][-]{subsection.4.1}{Scenario 1}{section.4}% 24
+\BOOKMARK [2][-]{subsection.4.2}{Scenario 2}{section.4}% 25
+\BOOKMARK [2][-]{subsection.4.3}{Scenario 3}{section.4}% 26
+\BOOKMARK [2][-]{subsection.4.4}{Scenario 4}{section.4}% 27
+\BOOKMARK [2][-]{subsection.4.5}{Scenario 5}{section.4}% 28
+\BOOKMARK [2][-]{subsection.4.6}{Scenario 6}{section.4}% 29
+\BOOKMARK [2][-]{subsection.4.7}{Scenario 7}{section.4}% 30
+\BOOKMARK [2][-]{subsection.4.8}{Scenario 8}{section.4}% 31
+\BOOKMARK [2][-]{subsection.4.9}{Scenario 9}{section.4}% 32
+\BOOKMARK [1][-]{section.5}{UML MODELS}{}% 33
+\BOOKMARK [2][-]{subsection.5.1}{Use case diagram}{section.5}% 34
+\BOOKMARK [2][-]{subsection.5.2}{Use case description}{section.5}% 35
+\BOOKMARK [2][-]{subsection.5.3}{Class diagram}{section.5}% 36
+\BOOKMARK [2][-]{subsection.5.4}{Sequence diagrams}{section.5}% 37
+\BOOKMARK [2][-]{subsection.5.5}{Activity diagram}{section.5}% 38
+\BOOKMARK [2][-]{subsection.5.6}{State diagram}{section.5}% 39
+\BOOKMARK [1][-]{section.6}{ALLOY}{}% 40
+\BOOKMARK [2][-]{subsection.6.1}{Model}{section.6}% 41
+\BOOKMARK [2][-]{subsection.6.2}{Alloy result}{section.6}% 42
+\BOOKMARK [2][-]{subsection.6.3}{World generated}{section.6}% 43
+\BOOKMARK [1][-]{section.7}{FUTURE DEVELOPMENT}{}% 44
+\BOOKMARK [1][-]{section.8}{USED TOOLS}{}% 45
+\BOOKMARK [1][-]{section.9}{HOURS OF WORK}{}% 46
+\BOOKMARK [2][-]{subsection.9.1}{Agosti Isabella}{section.9}% 47
+\BOOKMARK [2][-]{subsection.9.2}{Cattivelli Carolina}{section.9}% 48
+\BOOKMARK [1][-]{section.10}{CHANGELOG}{}% 49

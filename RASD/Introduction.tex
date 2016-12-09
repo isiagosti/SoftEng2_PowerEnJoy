@@ -1,8 +1,12 @@
 \section{INTRODUCTION}
 \subsection{Description of the given problem}
-We are to develop a digital management system for a car-sharing service called \textsl{PowerEnJoy}, that exclusively employs electric cars. \\
-The users will be able to interact with the system through a web or mobile application. The system will thus keep track of the users' position monitoring their GPS signal (if active), so as to be able to show them the locations of the available cars within a certain distance. In alternative, users will also be able to find all the available cars in a certain distance from an address of their choice.\\
+We are to develop a digital management system for a car-sharing service called \textsl{PowerEnJoy}, that exclusively employs electric cars. 
+
+The users will be able to interact with the system through a web or mobile application. The system will thus keep track of the users' position monitoring their GPS signal (if active), so as to be able to show them the locations of the available cars within a certain distance. In alternative, users will also be able to find all the available cars in a certain distance from an address of their choice.
+
 In order to benefit from the service, users need to register to the system by providing their credentials and payment information. Then they receive back a password via email that can be used to access the system. 
+
+Also, in order to ensure the proper functioning of the system, the PowerEnJoy service provides employees whose main duty is to manage cars information in those cases in which the system cannot intervene.
 
 \newpage
 \subsection{Goals}
@@ -21,6 +25,7 @@ Here are our application's goals:
 	\item {[G10]} Allow registered users to cancel a reservation paying a fee of 1 EUR.
 	\item {[G11]} Allow registered users to benefit from a discount percentage in certain cases.
 	\item {[G12]} Allow registered users to report an issue when they realize a car they reserved is somehow broken.
+	\item {[G13]} Allow employees to interact with the system and manage cars information.
 \end{itemize}
 \newpage
 \subsection{Glossary}
@@ -38,7 +43,18 @@ Here are our application's goals:
 		\item Driver license code.
 		\item Address.
 	\end{itemize}
+	\item \textbf{Employee}: a member of the PowerEnJoy staff. He is identified by:
+	\begin{itemize}
+		\item Id.
+		\item Username.
+		\item Password.
+		\item Name.
+		\item Surname.
+	\end{itemize}
+	\item \textbf{Registration}: the act or process of filling out an online form providing credentials and payment information. 
+	\item \textbf{Log-in}: process by which a user gains access to the system by identifying and authenticating himself/herself. The user credentials are some form of "username" and a matching "password".
 	\item \textbf{Car-sharing service}: model of car rental where people rent cars for short periods of time, often by the hour.
+	\newpage
 	\item \textbf{Electric car}: automobile that is propelled by one or more electric motors, using electrical energy stored in rechargeable batteries. It is identified by:
 	\begin{itemize}
 		\item Location.
@@ -48,8 +64,6 @@ Here are our application's goals:
 		\item Doors sensors: to define if they are open or closed.
 		\item Battery level. 
 	\end{itemize}
-	\item \textbf{Registration}: the act or process of filling out an online form providing credentials and payment information. 
-	\item \textbf{Log-in}: process by which a user gains access to the system by identifying and authenticating himself/herself. The user credentials are some form of "username" and a matching "password".
 	\item \textbf{Reservation}: arrangement through which a registered user holds a car for his use at a later time. It is identified by:
 	\begin{itemize}
 		\item Begin time.
@@ -63,6 +77,7 @@ Here are our application's goals:
 	\item \textbf{Geographical region}: circular region whose center is the user's position and whose radius is calculated as a certain distance from the center. It shows all the available cars and their position on the map. 
 	\item \textbf{Safe area}: area whose position is predefined by the management system. Safe areas are the only ones in which a user is allowed to park a car. 
 	\item \textbf{Special safe area}: special type of safe area where a car can be recharged.
+	\newpage
 	\item \textbf{Ride}: it starts when the user ignites the car engine and ends when the car is parked in a safe area (or special safe area) and the user exits the car. It is identified by: 
 	\begin{itemize}
 		\item Begin time.
@@ -103,6 +118,10 @@ We suppose that these properties hold in the analyzed world:
 	\item There isn't any already existent PowerEnJoy system.
 	\item The car monitors are touch-screen.
 	\item If a car is parked in a special safe area, it is always plugged into the power grid.
+	\item The PowerEnJoy service operates only in the city of Milan.
+	\item All employees are registered into the system.
+	\item The ids of the employees are unique.
+	\item Discounts and overcharges are cumulative: if I get a 10\% discount, a 30\% discount and a 30\% overcharge, in the end I will get a 10\% discount over my ride.
 \end{itemize}
 \newpage
 \subsection{Constraints}

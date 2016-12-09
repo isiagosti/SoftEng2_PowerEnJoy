@@ -61,7 +61,7 @@ Requirements are grouped under each goal from which they are derived.
 		\item {[R2]} The system will be able to realize when a user parks into a safe area.
 		\item {[R3]} The system will provide a functionality that calculates the ride price after applying the discount percentage/overcharge.
 	\end{itemize}
-	\item {[G10]} Allow registered users to cancel a reservation paying a fee of 1 EUR.
+	\item {[G10]} Allow registered users to cancel a reservation paying a 1EUR fee.
 	\begin{itemize}
 		\item {[R1]} Registered users must be logged into the system.
 		\item {[R2]} Registered users must have previously reserved a car and not yet unlocked it.
@@ -78,11 +78,17 @@ Requirements are grouped under each goal from which they are derived.
 		\item {[R1]} Registered users must be logged into the system.
 		\item {[R2]} Registered users must have previously reserved a car.
 		\item {[R3]} Registered users must have unlocked the car.
-		\item {[R4]} The system will provide a mobile functionality that allows registered users to report an issue.
+		\item {[R4]} The system will provide a mobile functionality (not web) that allows registered users to report an issue.
+	\end{itemize}
+	\item {[G13]} Allow employees to interact with the system and manage cars information.
+	\begin{itemize}
+		\item {[R1]} Employees must be logged into the system.
+		\item {[R2]} The system will provide a web functionality (not mobile) that allows employees to manage cars information.
 	\end{itemize}
 \end{itemize}
+\newpage
 \subsection{Nonfunctional requirements}
-\subsubsection{Mobile interface}
+\subsubsection{Mobile interface} 
 \begin{itemize}
 	\item Homepage:
 	\begin{figure}[H]
@@ -147,47 +153,62 @@ Requirements are grouped under each goal from which they are derived.
 		\includegraphics[width=1\textwidth]{Web_homepage}
 	\end{figure}
 \newpage
-\item Registration:
+\item User registration:
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{Web_registration}
 \end{figure}
 \newpage
-\item Receiving the password:
+\item User receives the password:
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{Web_password}
 \end{figure}
 \newpage
-\item Personal page:
+\item Registered user's personal page:
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{Web_personal_page}
 \end{figure}
 \newpage
-\item View profile:
+\item Registered user's profile:
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{Web_view_profile}
 \end{figure}
 \newpage
-\item Managing personal information:
+\item Registered user manages his/her personal information:
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{Web_change_info}
 \end{figure}
 \newpage
-\item Reservation:
+\item Registered user makes a reservation:
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{Web_reservation}
 \end{figure}
 \newpage
-\item Deleting a reservation:
+\item Registered user deletes a reservation:
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{Web_cancel_reservation}
 \end{figure}
+\end{itemize}
+\newpage
+\subsubsection{Employee}
+\begin{itemize}
+	\item Employee's personal page:
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{EmployeePersonalPage}
+	\end{figure}
+	\newpage
+	\item Employee manages a car's information:
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{EmployeeManagesCarInfo}
+	\end{figure}
 \end{itemize}
 \newpage
 \subsubsection{Car}

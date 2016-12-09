@@ -2,7 +2,7 @@
 \subsection{Use case diagram}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=13cm]{UseCase}
+	\includegraphics[width=14cm]{UseCase}
 \end{figure}
 \newpage
 \subsection{Use case description}
@@ -13,7 +13,7 @@ In this paragraph all our use cases are described.
 		\centering
 		\begin{tabular}{| m{3.5cm} | m{9.5cm} |}
 			\hline
-			\textbf{Name} & User: registration, fill out a registration form\\
+			\textbf{Name} & User: registration, fill out a registration form, first login\\
 			\hline
 			\textbf{Actors} & Generic user\\
 			\hline
@@ -25,7 +25,7 @@ In this paragraph all our use cases are described.
 				\item The user clicks on the "Sign in" button.
 				\item The user enters his credentials and payment information.
 				\item The user clicks again on the "Sign in" button.
-				\item The user receives a password by email.
+				\item The user receives a password via email.
 			\end{enumerate} \\
 			\hline
 			\textbf{Exit conditions} & The user makes his first login with the assigned password and the username he chose.\\
@@ -43,7 +43,7 @@ In this paragraph all our use cases are described.
 			\hline
 			\textbf{Actors} & Registered user\\
 			\hline
-			\textbf{Entry conditions} & The registered user has previously registered into the system.\\
+			\textbf{Entry conditions} & The registered user has previously registered to the system.\\
 			\hline
 			\textbf{Flow of Events} & 
 			\begin{enumerate}
@@ -185,6 +185,35 @@ In this paragraph all our use cases are described.
 		\hline
 	\end{tabular}
 \end{table}
+\newpage
+\item Employee logs into the system and manages a car's information [\hyperlink{EmployeeManageCarInfo}{Sequence Diagram}]:
+\begin{table}[H]
+	\centering
+	\begin{tabular}{| m{3.5cm} | m{9.5cm} |}
+		\hline
+		\textbf{Name} & Employee: login, manage car information\\
+		\hline
+		\textbf{Actors} & Employee\\
+		\hline
+		\textbf{Entry conditions} & The employee has previously been added to the database.\\
+		\hline
+		\textbf{Flow of Events} & 
+		\begin{enumerate}
+			\item The employee opens the website homepage.
+			\item The employee logs into the system by providing his/her credentials.
+			\item The employee visualizes the list of all PowerEnJoy cars.
+			\item The employee selects a car directly from the list or by searching its plate.
+			\item The employee visualizes the chosen car's information.
+			\item The employee manages the car's information. 
+			\item The employee clicks on the "Save changes" button.  
+		\end{enumerate} \\
+		\hline
+		\textbf{Exit conditions} & The car's information is changed and the employee visualizes the list of all PowerEnJoy cars.\\
+		\hline
+		\textbf{Exceptions} & Wrong credentials are given. The searched plate does not exist. Non valid values are entered into the car's information fields.\\
+		\hline
+	\end{tabular}
+\end{table}
 \end{itemize}
 \subsection{Class diagram}
 \begin{figure}[H]
@@ -229,6 +258,12 @@ In this paragraph all our use cases are described.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=14cm]{CancelRes}
+\end{figure}
+\newpage
+\item \hypertarget{EmployeeManageCarInfo} Employee manages car's information:
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=19.5cm]{EmployeeManageCarInfo}
 \end{figure}
 \end{itemize}
 \newpage

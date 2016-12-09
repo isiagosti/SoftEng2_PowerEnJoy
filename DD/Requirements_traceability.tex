@@ -1,2 +1,97 @@
-\section{REQUIREMENTS  TRACEABILITY}  
-Explain  how  the  requirements  you  have  defined  in  the  RASD map to the design elements that you have defined in this document.
+\section{REQUIREMENTS  TRACEABILITY} 
+Here are listed, under each goal, all the design components that will assure its fulfillment.
+\begin{itemize}
+	\item {[G1]} Allow users to register to the system by filling out a form.
+	\begin{itemize}
+		\item Client manager.
+		\item Notification manager.
+		\item Registration manager.
+		\item Account generator.
+		\item DB access manager.
+	\end{itemize} 
+	\item {[G2]} Allow registered users to access the system by entering their username and password.
+	\begin{itemize}
+		\item Client manager.
+		\item Account manager.
+		\item DB access manager.
+	\end{itemize} 
+	\item {[G3]} Allow registered users to manage their personal information.
+	\begin{itemize}
+		\item Client manager.
+		\item Account manager.
+		\item DB access manager.
+	\end{itemize} 
+	\item {[G4]} Allow registered users to find the locations of all available cars within a certain distance from their current location or from a specified address.
+	\begin{itemize}
+		\item Client manager.
+		\item Reservation manager.
+		\item Car manager.
+		\item DB access manager.
+	\end{itemize} 
+	\item {[G5]} Allow registered users to reserve a single car among the available ones in a certain geographical region for up to one hour before they pick it up.
+	\begin{itemize}
+		\item Client manager.
+		\item Reservation manager.
+		\item Car manager.
+		\item Reservation generator.
+		\item DB access manager.
+	\end{itemize} 
+	\item {[G6]} Allow registered users to tell the system they are nearby when they reach a car they previously reserved.
+	\begin{itemize}
+		\item Client manager.
+		\item Connection manager.
+		\item Car manager.
+		\item Account manager.
+		\item Reservation manager.
+		\item DB access manager.
+	\end{itemize} 
+	\item {[G7]} Allow registered users to see on a screen the amount of money they are being charged for while they are driving. 
+	\begin{itemize}
+		\item Client manager.
+		\item Car manager.
+		\item DB access manager.
+	\end{itemize} 
+	\item {[G8]} Allow registered users to see on a screen a map showing all the safe areas they can park in. 
+	\begin{itemize}
+		\item Client manager.
+		\item Car manager.
+		\item DB access manager.
+	\end{itemize} 
+	\item {[G9]} Allow registered users to see on a screen the discount percentage (if any) applied on their bill once the ride has ended.
+	\begin{itemize}
+		\item Client manager.
+		\item Car manager.
+		\item DB access manager.
+	\end{itemize} 
+	\item {[G10]} Allow registered users to cancel a reservation paying a fee of 1 EUR.
+	\begin{itemize}
+		\item Client manager.
+		\item Reservation manager.
+		\item Car manager.
+		\item Account manager.
+		\item DB access manager.
+	\end{itemize} 
+	\item {[G11]} Allow registered users to benefit from a discount percentage in certain cases.
+	\begin{itemize}
+		\item Client manager.
+		\item Account manager.
+		\item Reservation manager.
+		\item Car manager.
+		\item DB access manager.
+	\end{itemize} 
+	\item {[G12]} Allow registered users to report an issue when they realize a car they reserved is somehow broken.
+	\begin{itemize}
+		\item Client manager.
+		\item Reservation manager.
+		\item Account manager.
+		\item Car manager.
+		\item DB access manager.
+	\end{itemize} 
+	\item {[G13]} Allow employees to interact with the system and manage cars information.
+	\begin{itemize}
+		\item Client manager.
+		\item Account manager.
+		\item Car manager.
+		\item DB access manager.
+	\end{itemize} 
+\end{itemize}

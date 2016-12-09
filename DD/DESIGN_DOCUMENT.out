@@ -2,20 +2,57 @@
 \BOOKMARK [2][-]{subsection.1.1}{Purpose}{section.1}% 2
 \BOOKMARK [2][-]{subsection.1.2}{Scope}{section.1}% 3
 \BOOKMARK [2][-]{subsection.1.3}{Definitions, Acronyms, Abbreviations}{section.1}% 4
-\BOOKMARK [2][-]{subsection.1.4}{Reference Documents}{section.1}% 5
-\BOOKMARK [2][-]{subsection.1.5}{Document Structure}{section.1}% 6
-\BOOKMARK [1][-]{section.2}{ARCHITECTURAL DESIGN }{}% 7
-\BOOKMARK [2][-]{subsection.2.1}{Overview}{section.2}% 8
-\BOOKMARK [2][-]{subsection.2.2}{Component view}{section.2}% 9
-\BOOKMARK [2][-]{subsection.2.3}{Deployment view}{section.2}% 10
-\BOOKMARK [2][-]{subsection.2.4}{Runtime view}{section.2}% 11
-\BOOKMARK [2][-]{subsection.2.5}{Component interfaces}{section.2}% 12
-\BOOKMARK [2][-]{subsection.2.6}{Selected architectural styles and patterns}{section.2}% 13
-\BOOKMARK [2][-]{subsection.2.7}{Other design decisions}{section.2}% 14
-\BOOKMARK [1][-]{section.3}{ALGORITHM DESIGN}{}% 15
-\BOOKMARK [1][-]{section.4}{USER INTERFACE DESIGN}{}% 16
-\BOOKMARK [1][-]{section.5}{REQUIREMENTS TRACEABILITY}{}% 17
-\BOOKMARK [1][-]{section.6}{EFFORT SPENT}{}% 18
-\BOOKMARK [2][-]{subsection.6.1}{Agosti Isabella}{section.6}% 19
-\BOOKMARK [2][-]{subsection.6.2}{Cattivelli Carolina}{section.6}% 20
-\BOOKMARK [1][-]{section.7}{REFERENCES}{}% 21
+\BOOKMARK [3][-]{subsubsection.1.3.1}{Definitions}{subsection.1.3}% 5
+\BOOKMARK [3][-]{subsubsection.1.3.2}{Acronyms and Abbreviations}{subsection.1.3}% 6
+\BOOKMARK [2][-]{subsection.1.4}{Reference Documents}{section.1}% 7
+\BOOKMARK [2][-]{subsection.1.5}{Document Structure}{section.1}% 8
+\BOOKMARK [1][-]{section.2}{ARCHITECTURAL DESIGN }{}% 9
+\BOOKMARK [2][-]{subsection.2.1}{Overview}{section.2}% 10
+\BOOKMARK [2][-]{subsection.2.2}{Component view}{section.2}% 11
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Client component}{subsection.2.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Employee manager component}{subsection.2.2}% 13
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Ride manager component}{subsection.2.2}% 14
+\BOOKMARK [3][-]{subsubsection.2.2.4}{User manager component}{subsection.2.2}% 15
+\BOOKMARK [3][-]{subsubsection.2.2.5}{Registered user manager component}{subsection.2.2}% 16
+\BOOKMARK [3][-]{subsubsection.2.2.6}{Database component}{subsection.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.3}{Deployment view}{section.2}% 18
+\BOOKMARK [2][-]{subsection.2.4}{Runtime view}{section.2}% 19
+\BOOKMARK [3][-]{subsubsection.2.4.1}{User registration}{subsection.2.4}% 20
+\BOOKMARK [3][-]{subsubsection.2.4.2}{Registered user and employee login}{subsection.2.4}% 21
+\BOOKMARK [3][-]{subsubsection.2.4.3}{Registered user views his/her profile}{subsection.2.4}% 22
+\BOOKMARK [3][-]{subsubsection.2.4.4}{Registered user manages his/her personal information}{subsection.2.4}% 23
+\BOOKMARK [3][-]{subsubsection.2.4.5}{Registered user makes a reservation}{subsection.2.4}% 24
+\BOOKMARK [3][-]{subsubsection.2.4.6}{Registered user reports an issue}{subsection.2.4}% 25
+\BOOKMARK [3][-]{subsubsection.2.4.7}{Registered user cancels his/her current reservation}{subsection.2.4}% 26
+\BOOKMARK [3][-]{subsubsection.2.4.8}{Employee manages a car's information}{subsection.2.4}% 27
+\BOOKMARK [2][-]{subsection.2.5}{Component interfaces}{section.2}% 28
+\BOOKMARK [3][-]{subsubsection.2.5.1}{Client interfaces}{subsection.2.5}% 29
+\BOOKMARK [3][-]{subsubsection.2.5.2}{Employee manager interfaces}{subsection.2.5}% 30
+\BOOKMARK [3][-]{subsubsection.2.5.3}{User manager interfaces}{subsection.2.5}% 31
+\BOOKMARK [3][-]{subsubsection.2.5.4}{Registered user manager interfaces}{subsection.2.5}% 32
+\BOOKMARK [3][-]{subsubsection.2.5.5}{Ride manager interfaces}{subsection.2.5}% 33
+\BOOKMARK [2][-]{subsection.2.6}{Selected architectural styles and patterns}{section.2}% 34
+\BOOKMARK [3][-]{subsubsection.2.6.1}{Architectural styles}{subsection.2.6}% 35
+\BOOKMARK [3][-]{subsubsection.2.6.2}{Design patterns}{subsection.2.6}% 36
+\BOOKMARK [2][-]{subsection.2.7}{Other design decisions}{section.2}% 37
+\BOOKMARK [1][-]{section.3}{ALGORITHM DESIGN}{}% 38
+\BOOKMARK [2][-]{subsection.3.1}{Constants}{section.3}% 39
+\BOOKMARK [2][-]{subsection.3.2}{User}{section.3}% 40
+\BOOKMARK [2][-]{subsection.3.3}{Registered User}{section.3}% 41
+\BOOKMARK [2][-]{subsection.3.4}{Employee}{section.3}% 42
+\BOOKMARK [2][-]{subsection.3.5}{Car}{section.3}% 43
+\BOOKMARK [2][-]{subsection.3.6}{Screen}{section.3}% 44
+\BOOKMARK [2][-]{subsection.3.7}{Reservation}{section.3}% 45
+\BOOKMARK [2][-]{subsection.3.8}{Address}{section.3}% 46
+\BOOKMARK [2][-]{subsection.3.9}{Map}{section.3}% 47
+\BOOKMARK [2][-]{subsection.3.10}{Safe Area}{section.3}% 48
+\BOOKMARK [1][-]{section.4}{USER INTERFACE DESIGN}{}% 49
+\BOOKMARK [2][-]{subsection.4.1}{Mockups}{section.4}% 50
+\BOOKMARK [2][-]{subsection.4.2}{UX diagram}{section.4}% 51
+\BOOKMARK [2][-]{subsection.4.3}{BCE diagram}{section.4}% 52
+\BOOKMARK [1][-]{section.5}{REQUIREMENTS TRACEABILITY}{}% 53
+\BOOKMARK [1][-]{section.6}{EFFORT SPENT}{}% 54
+\BOOKMARK [2][-]{subsection.6.1}{Agosti Isabella}{section.6}% 55
+\BOOKMARK [2][-]{subsection.6.2}{Cattivelli Carolina}{section.6}% 56
+\BOOKMARK [1][-]{section.7}{REFERENCES}{}% 57
+\BOOKMARK [2][-]{subsection.7.1}{Used tools}{section.7}% 58

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.20)  22 NOV 2016 10:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.20)  9 DEC 2016 20:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -351,7 +351,7 @@ LaTeX Info: Redefining \nameref on input line 28.
 \openout3 = `DESIGN_DOCUMENT.out'.
 
 
-<Images/polimi_logo.png, id=88, 301.125pt x 301.125pt>
+<Images/polimi_logo.png, id=237, 301.125pt x 301.125pt>
 File: Images/polimi_logo.png Graphic file (type png)
 
 <use Images/polimi_logo.png>
@@ -371,84 +371,549 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
-)
+
+[2])
 \tf@toc=\write4
 \openout4 = `DESIGN_DOCUMENT.toc'.
 
-[2]
+ [3]
 \openout2 = `Introduction.aux'.
 
- (./Introduction.tex) [3
+ (./Introduction.tex [4
 
 ]
+Underfull \hbox (badness 1221) in paragraph at lines 33--34
+[]|\OT1/cmr/m/n/12 Arrangement through which a reg-is-tered user
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 14--44
+ [] 
+ []
+
+[5]
+Underfull \hbox (badness 3219) in paragraph at lines 58--59
+[]|\OT1/cmr/m/n/12 Requirements Anal-y-sis and Spec-i-fi-ca-tion
+ []
+
+
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 48--75
+ [] 
+ []
+
+[6]) [7]
 \openout2 = `Architectural_design.aux'.
 
- (./Architectural_design.tex) [4
+ (./Architectural_design.tex
+<Images/General_architecture.png, id=335, 625.33624pt x 577.15625pt>
+File: Images/General_architecture.png Graphic file (type png)
+
+<use Images/General_architecture.png>
+Package pdftex.def Info: Images/General_architecture.png used on input line 5.
+(pdftex.def)             Requested size: 390.0pt x 359.96439pt.
+
+<Images/3TieredArchitecture.png, id=336, 813.0375pt x 259.97125pt>
+File: Images/3TieredArchitecture.png Graphic file (type png)
+
+<use Images/3TieredArchitecture.png>
+Package pdftex.def Info: Images/3TieredArchitecture.png used on input line 10.
+(pdftex.def)             Requested size: 390.0pt x 124.70148pt.
+ [8
 
 
-]
+ <./Images/General_architecture.png>]
+[9 <./Images/3TieredArchitecture.png>]
+<Images/HighLevelComponent.png, id=349, 706.64pt x 455.7025pt>
+File: Images/HighLevelComponent.png Graphic file (type png)
+
+<use Images/HighLevelComponent.png>
+Package pdftex.def Info: Images/HighLevelComponent.png used on input line 28.
+(pdftex.def)             Requested size: 390.0pt x 251.50632pt.
+ [10 <./Images/HighLevelComponent.png>]
+<Images/ClientComponent.png, id=356, 636.3775pt x 418.56375pt>
+File: Images/ClientComponent.png Graphic file (type png)
+
+<use Images/ClientComponent.png>
+Package pdftex.def Info: Images/ClientComponent.png used on input line 56.
+(pdftex.def)             Requested size: 390.0pt x 256.51144pt.
+ [11 <./Images/ClientComponent.png>]
+<Images/EmployeeComponent.png, id=366, 626.34pt x 415.5525pt>
+File: Images/EmployeeComponent.png Graphic file (type png)
+
+<use Images/EmployeeComponent.png>
+Package pdftex.def Info: Images/EmployeeComponent.png used on input line 70.
+(pdftex.def)             Requested size: 390.0pt x 258.75586pt.
+ [12 <./Images/EmployeeComponent.png>]
+Overfull \hbox (3.03333pt too wide) in paragraph at lines 82--83
+[]\OT1/cmr/bx/n/12 Notification man-ager\OT1/cmr/m/n/12 , that man-ages the no-
+ti-fi-ca-tions the server needs
+ []
+
+<Images/RideComponent.png, id=377, 777.90625pt x 525.965pt>
+File: Images/RideComponent.png Graphic file (type png)
+
+<use Images/RideComponent.png>
+Package pdftex.def Info: Images/RideComponent.png used on input line 87.
+(pdftex.def)             Requested size: 390.0pt x 263.69612pt.
+ [13 <./Images/RideComponent.png>]
+Overfull \hbox (14.85825pt too wide) in paragraph at lines 98--99
+[]\OT1/cmr/bx/n/12 Registration man-ager\OT1/cmr/m/n/12 , that adds the user's 
+in-for-ma-tion to the database. 
+ []
+
+<Images/UserComponent.png, id=392, 666.49pt x 435.6275pt>
+File: Images/UserComponent.png Graphic file (type png)
+
+<use Images/UserComponent.png>
+Package pdftex.def Info: Images/UserComponent.png used on input line 102.
+(pdftex.def)             Requested size: 390.0pt x 254.91086pt.
+ [14 <./Images/UserComponent.png>]
+<Images/RegisteredUserComponent.png, id=404, 626.34pt x 415.5525pt>
+File: Images/RegisteredUserComponent.png Graphic file (type png)
+
+<use Images/RegisteredUserComponent.png>
+Package pdftex.def Info: Images/RegisteredUserComponent.png used on input line 
+116.
+(pdftex.def)             Requested size: 390.0pt x 258.75586pt.
+
+<Images/Class_diagram.png, id=405, 762.85pt x 1349.04pt>
+File: Images/Class_diagram.png Graphic file (type png)
+
+<use Images/Class_diagram.png>
+Package pdftex.def Info: Images/Class_diagram.png used on input line 122.
+(pdftex.def)             Requested size: 313.74829pt x 554.82874pt.
+ [15 <./Images/RegisteredUserComponent.png>]
+<Images/DeploymentView.png, id=416, 763.85374pt x 346.29375pt>
+File: Images/DeploymentView.png Graphic file (type png)
+
+<use Images/DeploymentView.png>
+Package pdftex.def Info: Images/DeploymentView.png used on input line 128.
+(pdftex.def)             Requested size: 390.0pt x 176.80826pt.
+ [16 <./Images/Class_diagram.png>] [17 <./Images/DeploymentView.png>]
+<Images/RegistrationSequence.png, id=428, 1268.74pt x 1404.24625pt>
+File: Images/RegistrationSequence.png Graphic file (type png)
+
+<use Images/RegistrationSequence.png>
+Package pdftex.def Info: Images/RegistrationSequence.png used on input line 139
+.
+(pdftex.def)             Requested size: 398.33858pt x 440.88287pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 139--140
+ [][] 
+ []
+
+<Images/LoginSequence.png, id=429, 848.16875pt x 837.1275pt>
+File: Images/LoginSequence.png Graphic file (type png)
+
+<use Images/LoginSequence.png>
+Package pdftex.def Info: Images/LoginSequence.png used on input line 144.
+(pdftex.def)             Requested size: 398.33858pt x 393.15619pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 144--145
+ [][] 
+ []
+
+[18 <./Images/RegistrationSequence.png>]
+<Images/ViewProfileSequence.png, id=435, 888.31876pt x 425.59pt>
+File: Images/ViewProfileSequence.png Graphic file (type png)
+
+<use Images/ViewProfileSequence.png>
+Package pdftex.def Info: Images/ViewProfileSequence.png used on input line 149.
+
+(pdftex.def)             Requested size: 390.0pt x 186.84456pt.
+ [19 <./Images/LoginSequence.png>]
+<Images/ManagePersonalInfoSequence.png, id=442, 987.69pt x 736.7525pt>
+File: Images/ManagePersonalInfoSequence.png Graphic file (type png)
+
+<use Images/ManagePersonalInfoSequence.png>
+Package pdftex.def Info: Images/ManagePersonalInfoSequence.png used on input li
+ne 154.
+(pdftex.def)             Requested size: 390.0pt x 290.90724pt.
+
+<Images/MakeReservationSequence.png, id=443, 1534.73375pt x 1707.37875pt>
+File: Images/MakeReservationSequence.png Graphic file (type png)
+
+<use Images/MakeReservationSequence.png>
+Package pdftex.def Info: Images/MakeReservationSequence.png used on input line 
+159.
+(pdftex.def)             Requested size: 390.0pt x 433.85176pt.
+ [20 <./Images/ViewProfileSequence.png> <./Images/ManagePersonalInfoSequence.pn
+g>]
+<Images/ReportIssueSequence.png, id=450, 1316.92pt x 1075.01625pt>
+File: Images/ReportIssueSequence.png Graphic file (type png)
+
+<use Images/ReportIssueSequence.png>
+Package pdftex.def Info: Images/ReportIssueSequence.png used on input line 164.
+
+(pdftex.def)             Requested size: 390.0pt x 318.3573pt.
+ [21 <./Images/MakeReservationSequence.png>]
+<Images/CancelCurrentReservationSequence.png, id=456, 1355.0625pt x 1128.215pt>
+File: Images/CancelCurrentReservationSequence.png Graphic file (type png)
+<use Images/CancelCurrentReservationSequence.png>
+Package pdftex.def Info: Images/CancelCurrentReservationSequence.png used on in
+put line 169.
+(pdftex.def)             Requested size: 390.0pt x 324.7122pt.
+ [22 <./Images/ReportIssueSequence.png>]
+<Images/ManageCarInfoEmployeeSequence.png, id=463, 998.73125pt x 1406.25375pt>
+File: Images/ManageCarInfoEmployeeSequence.png Graphic file (type png)
+
+<use Images/ManageCarInfoEmployeeSequence.png>
+Package pdftex.def Info: Images/ManageCarInfoEmployeeSequence.png used on input
+ line 174.
+(pdftex.def)             Requested size: 390.0pt x 549.1234pt.
+ [23 <./Images/CancelCurrentReservationSequence.png>] [24 <./Images/ManageCarIn
+foEmployeeSequence.png>]
+Overfull \hbox (7.09981pt too wide) in paragraph at lines 181--182
+[]\OT1/cmr/bx/n/12 UIAccess in-ter-face\OT1/cmr/m/n/12 , which pro-vides meth-o
+ds to get user in-puts through
+ []
+
+
+Overfull \hbox (6.5674pt too wide) in paragraph at lines 187--188
+[]\OT1/cmr/bx/n/12 Registered user man-ager in-ter-face\OT1/cmr/m/n/12 , which 
+pro-vides meth-ods through
+ []
+
+
+Overfull \hbox (5.54897pt too wide) in paragraph at lines 193--194
+[]\OT1/cmr/bx/n/12 Employee man-ager in-ter-face\OT1/cmr/m/n/12 , which pro-vid
+es meth-ods through which
+ []
+
+
+Overfull \hbox (6.5674pt too wide) in paragraph at lines 195--196
+[]\OT1/cmr/bx/n/12 Registered user man-ager in-ter-face\OT1/cmr/m/n/12 , which 
+pro-vides meth-ods through
+ []
+
+
+Overfull \hbox (5.54897pt too wide) in paragraph at lines 201--202
+[]\OT1/cmr/bx/n/12 Employee man-ager in-ter-face\OT1/cmr/m/n/12 , which pro-vid
+es meth-ods through which
+ []
+
+[25]
+Overfull \hbox (5.54897pt too wide) in paragraph at lines 208--209
+[]\OT1/cmr/bx/n/12 Employee man-ager in-ter-face\OT1/cmr/m/n/12 , which pro-vid
+es meth-ods through which
+ []
+
+
+Overfull \hbox (6.5674pt too wide) in paragraph at lines 210--211
+[]\OT1/cmr/bx/n/12 Registered user man-ager in-ter-face\OT1/cmr/m/n/12 , which 
+pro-vides meth-ods through
+ []
+
+[26] [27]) [28]
 \openout2 = `Algorithm_design.aux'.
 
+ (./Algorithm_design.tex
+<Images/Constants.png, id=491, 440.64626pt x 244.915pt>
+File: Images/Constants.png Graphic file (type png)
 
-(./Algorithm_design.tex) [5
+<use Images/Constants.png>
+Package pdftex.def Info: Images/Constants.png used on input line 6.
+(pdftex.def)             Requested size: 398.33858pt x 221.40804pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 6--7
+ [][] 
+ []
+
+<Images/User.png, id=492, 664.4825pt x 620.3175pt>
+File: Images/User.png Graphic file (type png)
+ <use Images/User.png>
+Package pdftex.def Info: Images/User.png used on input line 11.
+(pdftex.def)             Requested size: 398.33858pt x 371.86209pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 11--12
+ [][] 
+ []
+
+[29
 
 
-]
+ <./Images/Constants.png>]
+<Images/RegisteredUser1.png, id=498, 637.38126pt x 604.2575pt>
+File: Images/RegisteredUser1.png Graphic file (type png)
+
+<use Images/RegisteredUser1.png>
+Package pdftex.def Info: Images/RegisteredUser1.png used on input line 16.
+(pdftex.def)             Requested size: 398.33858pt x 377.63235pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 16--17
+ [][] 
+ []
+
+<Images/RegisteredUser2.png, id=499, 622.325pt x 169.63374pt>
+File: Images/RegisteredUser2.png Graphic file (type png)
+
+<use Images/RegisteredUser2.png>
+Package pdftex.def Info: Images/RegisteredUser2.png used on input line 20.
+(pdftex.def)             Requested size: 398.33858pt x 108.58073pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 20--21
+ [][] 
+ []
+
+[30 <./Images/User.png>]
+<Images/RegisteredUser3.png, id=505, 636.3775pt x 319.1925pt>
+File: Images/RegisteredUser3.png Graphic file (type png)
+
+<use Images/RegisteredUser3.png>
+Package pdftex.def Info: Images/RegisteredUser3.png used on input line 24.
+(pdftex.def)             Requested size: 398.33858pt x 199.79678pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 24--25
+ [][] 
+ []
+
+<Images/RegisteredUser4.png, id=506, 641.39626pt x 439.6425pt>
+File: Images/RegisteredUser4.png Graphic file (type png)
+
+<use Images/RegisteredUser4.png>
+Package pdftex.def Info: Images/RegisteredUser4.png used on input line 28.
+(pdftex.def)             Requested size: 398.33858pt x 273.04512pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 28--29
+ [][] 
+ []
+
+[31 <./Images/RegisteredUser1.png> <./Images/RegisteredUser2.png>]
+<Images/RegisteredUser5.png, id=514, 706.64pt x 617.30624pt>
+File: Images/RegisteredUser5.png Graphic file (type png)
+
+<use Images/RegisteredUser5.png>
+Package pdftex.def Info: Images/RegisteredUser5.png used on input line 32.
+(pdftex.def)             Requested size: 398.33858pt x 347.97803pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 32--33
+ [][] 
+ []
+
+[32 <./Images/RegisteredUser3.png> <./Images/RegisteredUser4.png>]
+<Images/Employee.png, id=521, 497.86pt x 199.74625pt>
+File: Images/Employee.png Graphic file (type png)
+
+<use Images/Employee.png>
+Package pdftex.def Info: Images/Employee.png used on input line 37.
+(pdftex.def)             Requested size: 398.33858pt x 159.8216pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 37--38
+ [][] 
+ []
+
+<Images/Car1.png, id=522, 660.4675pt x 349.305pt>
+File: Images/Car1.png Graphic file (type png)
+ <use Images/Car1.png>
+Package pdftex.def Info: Images/Car1.png used on input line 42.
+(pdftex.def)             Requested size: 398.33858pt x 210.67725pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 42--43
+ [][] 
+ []
+
+<Images/Car2.png, id=523, 718.685pt x 544.0325pt>
+File: Images/Car2.png Graphic file (type png)
+ <use Images/Car2.png>
+Package pdftex.def Info: Images/Car2.png used on input line 46.
+(pdftex.def)             Requested size: 398.33858pt x 301.54315pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 46--47
+ [][] 
+ []
+
+[33 <./Images/RegisteredUser5.png> <./Images/Employee.png>]
+<Images/Car3.png, id=530, 636.3775pt x 63.23625pt>
+File: Images/Car3.png Graphic file (type png)
+ <use Images/Car3.png>
+Package pdftex.def Info: Images/Car3.png used on input line 50.
+(pdftex.def)             Requested size: 398.33858pt x 39.58237pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 50--51
+ [][] 
+ []
+
+<Images/Car4.png, id=531, 588.1975pt x 588.1975pt>
+File: Images/Car4.png Graphic file (type png)
+ <use Images/Car4.png>
+Package pdftex.def Info: Images/Car4.png used on input line 54.
+(pdftex.def)             Requested size: 398.33858pt x 398.33553pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 54--55
+ [][] 
+ []
+
+[34 <./Images/Car1.png> <./Images/Car2.png>]
+<Images/Car5.png, id=538, 755.82375pt x 544.0325pt>
+File: Images/Car5.png Graphic file (type png)
+ <use Images/Car5.png>
+Package pdftex.def Info: Images/Car5.png used on input line 58.
+(pdftex.def)             Requested size: 398.33858pt x 286.7171pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 58--59
+ [][] 
+ []
+
+<Images/Car6.png, id=539, 727.71875pt x 347.2975pt>
+File: Images/Car6.png Graphic file (type png)
+ <use Images/Car6.png>
+Package pdftex.def Info: Images/Car6.png used on input line 62.
+(pdftex.def)             Requested size: 398.33858pt x 190.10802pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 62--63
+ [][] 
+ []
+
+[35 <./Images/Car3.png> <./Images/Car4.png>]
+<Images/Screen.png, id=546, 382.42876pt x 546.04pt>
+File: Images/Screen.png Graphic file (type png)
+ <use Images/Screen.png>
+Package pdftex.def Info: Images/Screen.png used on input line 67.
+(pdftex.def)             Requested size: 378.64647pt x 540.60236pt.
+
+[36 <./Images/Car5.png> <./Images/Car6.png>]
+<Images/Reservation1.png, id=553, 760.8425pt x 318.18875pt>
+File: Images/Reservation1.png Graphic file (type png)
+
+<use Images/Reservation1.png>
+Package pdftex.def Info: Images/Reservation1.png used on input line 72.
+(pdftex.def)             Requested size: 398.33858pt x 166.59035pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 72--73
+ [][] 
+ []
+
+<Images/Reservation2.png, id=554, 686.565pt x 497.86pt>
+File: Images/Reservation2.png Graphic file (type png)
+
+<use Images/Reservation2.png>
+Package pdftex.def Info: Images/Reservation2.png used on input line 76.
+(pdftex.def)             Requested size: 398.33858pt x 288.85016pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 76--77
+ [][] 
+ []
+
+[37 <./Images/Screen.png>]
+<Images/Address.png, id=561, 416.55624pt x 273.02pt>
+File: Images/Address.png Graphic file (type png)
+ <use Images/Address.png>
+Package pdftex.def Info: Images/Address.png used on input line 81.
+(pdftex.def)             Requested size: 398.33858pt x 261.09222pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 81--82
+ [][] 
+ []
+
+[38 <./Images/Reservation1.png> <./Images/Reservation2.png>]
+<Images/Map.png, id=568, 507.8975pt x 410.53375pt>
+File: Images/Map.png Graphic file (type png)
+ <use Images/Map.png>
+Package pdftex.def Info: Images/Map.png used on input line 86.
+(pdftex.def)             Requested size: 398.33858pt x 321.98781pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 86--87
+ [][] 
+ []
+
+[39 <./Images/Address.png>]
+<Images/SafeArea.png, id=574, 654.445pt x 395.4775pt>
+File: Images/SafeArea.png Graphic file (type png)
+
+<use Images/SafeArea.png>
+Package pdftex.def Info: Images/SafeArea.png used on input line 91.
+(pdftex.def)             Requested size: 398.33858pt x 240.71591pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 91--92
+ [][] 
+ []
+
+) [40 <./Images/Map.png>] [41 <./Images/SafeArea.png>]
 \openout2 = `User_interface_design.aux'.
 
- (./User_interface_design.tex) [6
+
+(./User_interface_design.tex
+<Images/UX.png, id=586, 996.72375pt x 1334.9875pt>
+File: Images/UX.png Graphic file (type png)
+ <use Images/UX.png>
+Package pdftex.def Info: Images/UX.png used on input line 7.
+(pdftex.def)             Requested size: 414.25621pt x 554.82874pt.
+
+Overfull \hbox (24.25621pt too wide) in paragraph at lines 7--8
+ [][] 
+ []
+
+[42
 
 
-]
+] <Images/BCE.png, id=591, 1300.86pt x 1982.40625pt>
+File: Images/BCE.png Graphic file (type png)
+ <use Images/BCE.png>
+Package pdftex.def Info: Images/BCE.png used on input line 12.
+(pdftex.def)             Requested size: 364.07953pt x 554.82874pt.
+)
+[43 <./Images/UX.png>] [44 <./Images/BCE.png>]
 \openout2 = `Requirements_traceability.aux'.
 
+ (./Requirements_traceability.tex [45
 
-(./Requirements_traceability.tex) [7
 
-
-]
+] [46]) [47]
 \openout2 = `Effort_spent.aux'.
 
- (./Effort_spent.tex) [8
+ (./Effort_spent.tex) [48
 
 
 ]
 \openout2 = `References.aux'.
 
-
-(./References.tex) [9
+ (./References.tex) [49
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
- (./DESIGN_DOCUMENT.aux (./Introduction.aux)
-(./Architectural_design.aux) (./Algorithm_design.aux)
-(./User_interface_design.aux) (./Requirements_traceability.aux)
-(./Effort_spent.aux) (./References.aux))
+
+(./DESIGN_DOCUMENT.aux (./Introduction.aux) (./Architectural_design.aux)
+(./Algorithm_design.aux) (./User_interface_design.aux)
+(./Requirements_traceability.aux) (./Effort_spent.aux) (./References.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
 Package rerunfilecheck Info: File `DESIGN_DOCUMENT.out' has not changed.
-(rerunfilecheck)             Checksum: 51B2A6F701046442E95BD0AC6C3C0404;1312.
+(rerunfilecheck)             Checksum: 4F2877CF6138ED407CD2F395FC6877E5;4133.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
  ) 
 Here is how much of TeX's memory you used:
- 5752 strings out of 494447
- 86918 string characters out of 6166765
- 164271 words of memory out of 5000000
- 8967 multiletter control sequences out of 15000+600000
- 9452 words of font info for 33 fonts, out of 8000000 for 9000
+ 6105 strings out of 494447
+ 94113 string characters out of 6166765
+ 168283 words of memory out of 5000000
+ 9169 multiletter control sequences out of 15000+600000
+ 9968 words of font info for 35 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 29i,7n,30p,245b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,9n,30p,424b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/isabellaagosti/Library/texlive/2016basic/texmf-var/fonts/pk/ljfour/j
 knappen/ec/tcrm1200.600pk></usr/local/texlive/2016basic/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016basic/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on DESIGN_DOCUMENT.pdf (9 pages, 83729 bytes).
+/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016basic/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016basic/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on DESIGN_DOCUMENT.pdf (49 pages, 4249527 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 688 PDF objects out of 1000 (max. 8388607)
+ 543 compressed objects within 6 object streams
+ 141 named destinations out of 1000 (max. 500000)
+ 670 words of extra memory for PDF output out of 10000 (max. 10000000)
 

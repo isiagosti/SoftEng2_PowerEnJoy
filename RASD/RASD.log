@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.20)  13 NOV 2016 20:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.20)  9 DEC 2016 20:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -271,7 +271,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 13.
 
 (./RASD.aux (./Introduction.aux) (./Actors.aux) (./Requirements.aux)
 (./Scenarios.aux) (./UML_models.aux) (./Alloy.aux) (./Future_development.aux)
-(./Used_tools.aux) (./Hours_of_work.aux))
+(./Used_tools.aux) (./Hours_of_work.aux) (./Changelog.aux))
 \openout1 = `RASD.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
@@ -351,7 +351,7 @@ LaTeX Info: Redefining \nameref on input line 28.
 \openout3 = `RASD.out'.
 
 
-<Images/polimi_logo.png, id=188, 301.125pt x 301.125pt>
+<Images/polimi_logo.png, id=200, 301.125pt x 301.125pt>
 File: Images/polimi_logo.png Graphic file (type png)
 
 <use Images/polimi_logo.png>
@@ -381,19 +381,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  (./Introduction.tex [4
 
-] [5]
-Overfull \hbox (55.45088pt too wide) in paragraph at lines 45--46
+] [5] [6]
+Overfull \hbox (55.45088pt too wide) in paragraph at lines 61--62
 []\OT1/cmr/m/n/12 State: re-served/available, blocked/unlocked, ig-nited/off, p
 lugged/unplugged,
  []
 
-[6] [7] [8] [9] [10] [11]
-<Images/Architecture.png, id=290, 985.6825pt x 746.79pt>
+[7] [8] [9] [10] [11]
+<Images/Architecture.png, id=305, 1000.73875pt x 914.41624pt>
 File: Images/Architecture.png Graphic file (type png)
 
 <use Images/Architecture.png>
-Package pdftex.def Info: Images/Architecture.png used on input line 148.
-(pdftex.def)             Requested size: 390.0pt x 295.4745pt.
+Package pdftex.def Info: Images/Architecture.png used on input line 167.
+(pdftex.def)             Requested size: 390.0pt x 356.35579pt.
  [12 <./Images/Architecture.png>]) [13]
 \openout2 = `Actors.aux'.
 
@@ -407,169 +407,191 @@ Package pdftex.def Info: Images/Architecture.png used on input line 148.
  (./Requirements.tex [15
 
 
-] [16]
-<Images/Mobile_homepage.png, id=316, 978.65625pt x 786.94pt>
+] [16] [17] [18]
+<Images/Mobile_homepage.png, id=339, 978.65625pt x 786.94pt>
 File: Images/Mobile_homepage.png Graphic file (type png)
 
 <use Images/Mobile_homepage.png>
-Package pdftex.def Info: Images/Mobile_homepage.png used on input line 90.
+Package pdftex.def Info: Images/Mobile_homepage.png used on input line 96.
 (pdftex.def)             Requested size: 390.0pt x 313.60567pt.
- [17] [18 <./Images/Mobile_homepage.png>]
-<Images/Mobile_registration.png, id=326, 901.3675pt x 786.94pt>
+ [19 <./Images/Mobile_homepage.png>]
+<Images/Mobile_registration.png, id=346, 901.3675pt x 786.94pt>
 File: Images/Mobile_registration.png Graphic file (type png)
 
 <use Images/Mobile_registration.png>
-Package pdftex.def Info: Images/Mobile_registration.png used on input line 96.
+Package pdftex.def Info: Images/Mobile_registration.png used on input line 102.
+
 (pdftex.def)             Requested size: 390.0pt x 340.49097pt.
- [19 <./Images/Mobile_registration.png>]
-<Images/Mobile_password.png, id=333, 585.18625pt x 523.9575pt>
+ [20 <./Images/Mobile_registration.png>]
+<Images/Mobile_password.png, id=352, 585.18625pt x 523.9575pt>
 File: Images/Mobile_password.png Graphic file (type png)
 
 <use Images/Mobile_password.png>
-Package pdftex.def Info: Images/Mobile_password.png used on input line 102.
+Package pdftex.def Info: Images/Mobile_password.png used on input line 108.
 (pdftex.def)             Requested size: 390.0pt x 349.21086pt.
- [20 <./Images/Mobile_password.png>]
-<Images/Mobile_personal_page.png, id=339, 584.1825pt x 523.9575pt>
+ [21 <./Images/Mobile_password.png>]
+<Images/Mobile_personal_page.png, id=358, 584.1825pt x 523.9575pt>
 File: Images/Mobile_personal_page.png Graphic file (type png)
 
 <use Images/Mobile_personal_page.png>
-Package pdftex.def Info: Images/Mobile_personal_page.png used on input line 108
+Package pdftex.def Info: Images/Mobile_personal_page.png used on input line 114
 .
 (pdftex.def)             Requested size: 390.0pt x 349.80249pt.
- [21 <./Images/Mobile_personal_page.png>]
-<Images/Mobile_view_profile.png, id=345, 583.17876pt x 524.96124pt>
+ [22 <./Images/Mobile_personal_page.png>]
+<Images/Mobile_view_profile.png, id=364, 583.17876pt x 524.96124pt>
 File: Images/Mobile_view_profile.png Graphic file (type png)
 
 <use Images/Mobile_view_profile.png>
-Package pdftex.def Info: Images/Mobile_view_profile.png used on input line 114.
+Package pdftex.def Info: Images/Mobile_view_profile.png used on input line 120.
 
 (pdftex.def)             Requested size: 390.0pt x 351.07338pt.
- [22 <./Images/Mobile_view_profile.png>]
-<Images/Mobile_change_info.png, id=351, 582.175pt x 524.96124pt>
+ [23 <./Images/Mobile_view_profile.png>]
+<Images/Mobile_change_info.png, id=370, 582.175pt x 524.96124pt>
 File: Images/Mobile_change_info.png Graphic file (type png)
 
 <use Images/Mobile_change_info.png>
-Package pdftex.def Info: Images/Mobile_change_info.png used on input line 120.
+Package pdftex.def Info: Images/Mobile_change_info.png used on input line 126.
 (pdftex.def)             Requested size: 390.0pt x 351.68216pt.
- [23 <./Images/Mobile_change_info.png>]
-<Images/Mobile_reservation.png, id=357, 1020.81375pt x 587.19376pt>
+ [24 <./Images/Mobile_change_info.png>]
+<Images/Mobile_reservation.png, id=376, 1020.81375pt x 587.19376pt>
 File: Images/Mobile_reservation.png Graphic file (type png)
 
 <use Images/Mobile_reservation.png>
-Package pdftex.def Info: Images/Mobile_reservation.png used on input line 126.
+Package pdftex.def Info: Images/Mobile_reservation.png used on input line 132.
 (pdftex.def)             Requested size: 390.0pt x 224.33656pt.
- [24 <./Images/Mobile_reservation.png>]
-<Images/Mobile_cancel_reservation.png, id=363, 583.17876pt x 523.9575pt>
+ [25 <./Images/Mobile_reservation.png>]
+<Images/Mobile_cancel_reservation.png, id=383, 583.17876pt x 523.9575pt>
 File: Images/Mobile_cancel_reservation.png Graphic file (type png)
 
 <use Images/Mobile_cancel_reservation.png>
 Package pdftex.def Info: Images/Mobile_cancel_reservation.png used on input lin
-e 132.
+e 138.
 (pdftex.def)             Requested size: 390.0pt x 350.40211pt.
- [25 <./Images/Mobile_cancel_reservation.png>] <Images/Mobile_report_issue.png,
- id=370, 584.1825pt x 524.96124pt>
+ [26 <./Images/Mobile_cancel_reservation.png>] <Images/Mobile_report_issue.png,
+ id=389, 584.1825pt x 524.96124pt>
 File: Images/Mobile_report_issue.png Graphic file (type png)
 
 <use Images/Mobile_report_issue.png>
-Package pdftex.def Info: Images/Mobile_report_issue.png used on input line 138.
+Package pdftex.def Info: Images/Mobile_report_issue.png used on input line 144.
 
 (pdftex.def)             Requested size: 390.0pt x 350.47261pt.
- [26 <./Images/Mobile_report_issue.png>]
-<Images/Web_homepage.png, id=376, 571.13374pt x 492.84125pt>
+ [27 <./Images/Mobile_report_issue.png>]
+<Images/Web_homepage.png, id=395, 571.13374pt x 492.84125pt>
 File: Images/Web_homepage.png Graphic file (type png)
 
 <use Images/Web_homepage.png>
-Package pdftex.def Info: Images/Web_homepage.png used on input line 147.
+Package pdftex.def Info: Images/Web_homepage.png used on input line 153.
 (pdftex.def)             Requested size: 390.0pt x 336.54138pt.
- [27 <./Images/Web_homepage.png>]
-<Images/Web_registration.png, id=382, 573.14125pt x 475.7775pt>
+ [28 <./Images/Web_homepage.png>]
+<Images/Web_registration.png, id=401, 573.14125pt x 475.7775pt>
 File: Images/Web_registration.png Graphic file (type png)
 
 <use Images/Web_registration.png>
-Package pdftex.def Info: Images/Web_registration.png used on input line 153.
+Package pdftex.def Info: Images/Web_registration.png used on input line 159.
 (pdftex.def)             Requested size: 390.0pt x 323.74947pt.
- [28 <./Images/Web_registration.png>]
-<Images/Web_password.png, id=388, 571.13374pt x 518.93875pt>
+ [29 <./Images/Web_registration.png>]
+<Images/Web_password.png, id=407, 571.13374pt x 518.93875pt>
 File: Images/Web_password.png Graphic file (type png)
 
 <use Images/Web_password.png>
-Package pdftex.def Info: Images/Web_password.png used on input line 159.
+Package pdftex.def Info: Images/Web_password.png used on input line 165.
 (pdftex.def)             Requested size: 390.0pt x 354.36234pt.
- [29 <./Images/Web_password.png>]
-<Images/Web_personal_page.png, id=394, 379.4175pt x 396.48125pt>
+ [30 <./Images/Web_password.png>]
+<Images/Web_personal_page.png, id=413, 379.4175pt x 396.48125pt>
 File: Images/Web_personal_page.png Graphic file (type png)
 
 <use Images/Web_personal_page.png>
-Package pdftex.def Info: Images/Web_personal_page.png used on input line 165.
+Package pdftex.def Info: Images/Web_personal_page.png used on input line 171.
 (pdftex.def)             Requested size: 390.0pt x 407.54536pt.
- [30 <./Images/Web_personal_page.png>]
-<Images/Web_view_profile.png, id=400, 571.13374pt x 474.77374pt>
+ [31 <./Images/Web_personal_page.png>]
+<Images/Web_view_profile.png, id=420, 571.13374pt x 474.77374pt>
 File: Images/Web_view_profile.png Graphic file (type png)
 
 <use Images/Web_view_profile.png>
-Package pdftex.def Info: Images/Web_view_profile.png used on input line 171.
+Package pdftex.def Info: Images/Web_view_profile.png used on input line 177.
 (pdftex.def)             Requested size: 390.0pt x 324.20383pt.
- [31 <./Images/Web_view_profile.png>]
-<Images/Web_change_info.png, id=407, 572.1375pt x 474.77374pt>
+ [32 <./Images/Web_view_profile.png>]
+<Images/Web_change_info.png, id=426, 572.1375pt x 474.77374pt>
 File: Images/Web_change_info.png Graphic file (type png)
 
 <use Images/Web_change_info.png>
-Package pdftex.def Info: Images/Web_change_info.png used on input line 177.
+Package pdftex.def Info: Images/Web_change_info.png used on input line 183.
 (pdftex.def)             Requested size: 390.0pt x 323.63152pt.
- [32 <./Images/Web_change_info.png>]
-<Images/Web_reservation.png, id=413, 378.41376pt x 429.605pt>
+ [33 <./Images/Web_change_info.png>]
+<Images/Web_reservation.png, id=432, 378.41376pt x 429.605pt>
 File: Images/Web_reservation.png Graphic file (type png)
 
 <use Images/Web_reservation.png>
-Package pdftex.def Info: Images/Web_reservation.png used on input line 183.
+Package pdftex.def Info: Images/Web_reservation.png used on input line 189.
 (pdftex.def)             Requested size: 390.0pt x 442.7603pt.
- [33 <./Images/Web_reservation.png>]
-<Images/Web_cancel_reservation.png, id=419, 572.1375pt x 475.7775pt>
+ [34 <./Images/Web_reservation.png>]
+<Images/Web_cancel_reservation.png, id=438, 572.1375pt x 475.7775pt>
 File: Images/Web_cancel_reservation.png Graphic file (type png)
 
 <use Images/Web_cancel_reservation.png>
 Package pdftex.def Info: Images/Web_cancel_reservation.png used on input line 1
-89.
+95.
 (pdftex.def)             Requested size: 390.0pt x 324.31572pt.
- [34 <./Images/Web_cancel_reservation.png>] <Images/Car_screen_where.png, id=42
-5, 737.75626pt x 671.50874pt>
+ [35 <./Images/Web_cancel_reservation.png>] <Images/EmployeePersonalPage.png, i
+d=444, 349.305pt x 381.425pt>
+File: Images/EmployeePersonalPage.png Graphic file (type png)
+
+<use Images/EmployeePersonalPage.png>
+Package pdftex.def Info: Images/EmployeePersonalPage.png used on input line 204
+.
+(pdftex.def)             Requested size: 390.0pt x 425.88937pt.
+ [36 <./Images/EmployeePersonalPage.png>]
+<Images/EmployeeManagesCarInfo.png, id=450, 378.41376pt x 327.2225pt>
+File: Images/EmployeeManagesCarInfo.png Graphic file (type png)
+
+<use Images/EmployeeManagesCarInfo.png>
+Package pdftex.def Info: Images/EmployeeManagesCarInfo.png used on input line 2
+10.
+(pdftex.def)             Requested size: 390.0pt x 337.24265pt.
+ [37 <./Images/EmployeeManagesCarInfo.png>] <Images/Car_screen_where.png, id=45
+7, 556.0775pt x 510.90875pt>
 File: Images/Car_screen_where.png Graphic file (type png)
 
 <use Images/Car_screen_where.png>
-Package pdftex.def Info: Images/Car_screen_where.png used on input line 198.
-(pdftex.def)             Requested size: 390.0pt x 354.97577pt.
- [35 <./Images/Car_screen_where.png>]
-<Images/Car_screen.png, id=431, 741.77126pt x 666.49pt>
+Package pdftex.def Info: Images/Car_screen_where.png used on input line 219.
+(pdftex.def)             Requested size: 390.0pt x 358.32751pt.
+ [38 <./Images/Car_screen_where.png>]
+<Images/Car_screen.png, id=463, 555.07375pt x 513.92pt>
 File: Images/Car_screen.png Graphic file (type png)
 
 <use Images/Car_screen.png>
-Package pdftex.def Info: Images/Car_screen.png used on input line 204.
-(pdftex.def)             Requested size: 390.0pt x 350.42097pt.
- [36 <./Images/Car_screen.png>]
-<Images/Car_screen_destination.png, id=437, 739.76375pt x 669.50125pt>
+Package pdftex.def Info: Images/Car_screen.png used on input line 225.
+(pdftex.def)             Requested size: 390.0pt x 361.09032pt.
+ [39 <./Images/Car_screen.png>]
+<Images/Car_screen_destination.png, id=469, 551.05875pt x 505.89pt>
 File: Images/Car_screen_destination.png Graphic file (type png)
 
 <use Images/Car_screen_destination.png>
 Package pdftex.def Info: Images/Car_screen_destination.png used on input line 2
-10.
-(pdftex.def)             Requested size: 390.0pt x 352.95427pt.
- [37 <./Images/Car_screen_destination.png>]) [38]
+31.
+(pdftex.def)             Requested size: 390.0pt x 358.04967pt.
+ [40 <./Images/Car_screen_destination.png>]) [41]
 \openout2 = `Scenarios.aux'.
 
- (./Scenarios.tex [39
+ (./Scenarios.tex [42
 
 
-] [40]) [41]
+] [43] [44]) [45]
 \openout2 = `UML_models.aux'.
 
  (./UML_models.tex
-<Images/UseCase.png, id=460, 1022.82124pt x 1168.365pt>
+<Images/UseCase.png, id=498, 876.27374pt x 837.1275pt>
 File: Images/UseCase.png Graphic file (type png)
 
 <use Images/UseCase.png>
 Package pdftex.def Info: Images/UseCase.png used on input line 5.
-(pdftex.def)             Requested size: 369.88582pt x 422.51866pt.
- [42
+(pdftex.def)             Requested size: 398.33858pt x 380.54872pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 5--6
+ [][] 
+ []
+
+[46
 
 
  <./Images/UseCase.png>]
@@ -582,7 +604,7 @@ Overfull \hbox (5.0858pt too wide) in paragraph at lines 40--60
  [][] 
  []
 
-[43]
+[47]
 Overfull \hbox (5.0858pt too wide) in paragraph at lines 65--83
  [][] 
  []
@@ -592,121 +614,134 @@ Overfull \hbox (5.0858pt too wide) in paragraph at lines 87--108
  [][] 
  []
 
-[44]
+[48]
 Overfull \hbox (5.0858pt too wide) in paragraph at lines 113--133
  [][] 
  []
 
-[45]
+[49]
 Overfull \hbox (5.0858pt too wide) in paragraph at lines 138--160
  [][] 
  []
 
-[46]
+[50]
 Overfull \hbox (5.0858pt too wide) in paragraph at lines 165--187
  [][] 
  []
 
-<Images/Class_diagram.png, id=519, 705.63625pt x 1358.07375pt>
+[51]
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 192--216
+ [][] 
+ []
+
+<Images/Class_diagram.png, id=568, 762.85pt x 1349.04pt>
 File: Images/Class_diagram.png Graphic file (type png)
 
 <use Images/Class_diagram.png>
-Package pdftex.def Info: Images/Class_diagram.png used on input line 192.
-(pdftex.def)             Requested size: 288.27908pt x 554.82874pt.
- [47]
-<Images/UserRegistration.png, id=531, 536.0025pt x 783.92876pt>
+Package pdftex.def Info: Images/Class_diagram.png used on input line 221.
+(pdftex.def)             Requested size: 313.74829pt x 554.82874pt.
+ [52]
+<Images/UserRegistration.png, id=582, 536.0025pt x 1075.01625pt>
 File: Images/UserRegistration.png Graphic file (type png)
 
 <use Images/UserRegistration.png>
-Package pdftex.def Info: Images/UserRegistration.png used on input line 199.
-(pdftex.def)             Requested size: 369.654pt x 540.60236pt.
- [48 <./Images/Class_diagram.png>]
-<Images/Login.png, id=537, 556.0775pt x 650.43pt>
+Package pdftex.def Info: Images/UserRegistration.png used on input line 228.
+(pdftex.def)             Requested size: 269.54637pt x 540.60236pt.
+ [53 <./Images/Class_diagram.png>]
+<Images/Login.png, id=588, 556.0775pt x 650.43pt>
 File: Images/Login.png Graphic file (type png)
  <use Images/Login.png>
-Package pdftex.def Info: Images/Login.png used on input line 204.
+Package pdftex.def Info: Images/Login.png used on input line 233.
 (pdftex.def)             Requested size: 398.33858pt x 465.93723pt.
 
-Overfull \hbox (8.33858pt too wide) in paragraph at lines 204--205
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 233--234
  [][] 
  []
 
-[49 <./Images/UserRegistration.png>] [50 <./Images/Login.png>]
-<Images/ViewProfile.png, id=549, 551.05875pt x 191.71625pt>
+[54 <./Images/UserRegistration.png>] [55 <./Images/Login.png>]
+<Images/ViewProfile.png, id=601, 551.05875pt x 191.71625pt>
 File: Images/ViewProfile.png Graphic file (type png)
 
 <use Images/ViewProfile.png>
-Package pdftex.def Info: Images/ViewProfile.png used on input line 210.
+Package pdftex.def Info: Images/ViewProfile.png used on input line 239.
 (pdftex.def)             Requested size: 398.33858pt x 138.58847pt.
 
-Overfull \hbox (8.33858pt too wide) in paragraph at lines 210--211
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 239--240
  [][] 
  []
 
-<Images/ManageInfo.png, id=550, 626.34pt x 593.21625pt>
+<Images/ManageInfo.png, id=602, 626.34pt x 593.21625pt>
 File: Images/ManageInfo.png Graphic file (type png)
 
 <use Images/ManageInfo.png>
-Package pdftex.def Info: Images/ManageInfo.png used on input line 215.
+Package pdftex.def Info: Images/ManageInfo.png used on input line 244.
 (pdftex.def)             Requested size: 398.33858pt x 377.28554pt.
 
-Overfull \hbox (8.33858pt too wide) in paragraph at lines 215--216
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 244--245
  [][] 
  []
 
-<Images/Reservation.png, id=551, 736.7525pt x 1417.295pt>
+<Images/Reservation.png, id=603, 736.7525pt x 1417.295pt>
 File: Images/Reservation.png Graphic file (type png)
 
 <use Images/Reservation.png>
-Package pdftex.def Info: Images/Reservation.png used on input line 220.
+Package pdftex.def Info: Images/Reservation.png used on input line 249.
 (pdftex.def)             Requested size: 288.42279pt x 554.82874pt.
- [51 <./Images/ViewProfile.png> <./Images/ManageInfo.png>] <Images/ReportIssue.
-png, id=558, 596.2275pt x 692.5875pt>
+ [56 <./Images/ViewProfile.png> <./Images/ManageInfo.png>] <Images/ReportIssue.
+png, id=610, 596.2275pt x 692.5875pt>
 File: Images/ReportIssue.png Graphic file (type png)
 
 <use Images/ReportIssue.png>
-Package pdftex.def Info: Images/ReportIssue.png used on input line 225.
+Package pdftex.def Info: Images/ReportIssue.png used on input line 254.
 (pdftex.def)             Requested size: 384.1122pt x 446.1924pt.
- [52 <./Images/Reservation.png>] [53 <./Images/ReportIssue.png>] <Images/Cancel
-Res.png, id=569, 596.2275pt x 742.775pt>
+ [57 <./Images/Reservation.png>] [58 <./Images/ReportIssue.png>] <Images/Cancel
+Res.png, id=621, 596.2275pt x 742.775pt>
 File: Images/CancelRes.png Graphic file (type png)
 
 <use Images/CancelRes.png>
-Package pdftex.def Info: Images/CancelRes.png used on input line 231.
+Package pdftex.def Info: Images/CancelRes.png used on input line 260.
 (pdftex.def)             Requested size: 398.33858pt x 496.25127pt.
 
-Overfull \hbox (8.33858pt too wide) in paragraph at lines 231--232
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 260--261
  [][] 
  []
 
-[54 <./Images/CancelRes.png>]
-<Images/ActivityDiagram.png, id=575, 660.4675pt x 354.32375pt>
+[59 <./Images/CancelRes.png>]
+<Images/EmployeeManageCarInfo.png, id=627, 627.34375pt x 1426.32875pt>
+File: Images/EmployeeManageCarInfo.png Graphic file (type png)
+
+<use Images/EmployeeManageCarInfo.png>
+Package pdftex.def Info: Images/EmployeeManageCarInfo.png used on input line 26
+6.
+(pdftex.def)             Requested size: 244.03128pt x 554.82874pt.
+ [60 <./Images/EmployeeManageCarInfo.png>] <Images/ActivityDiagram.png, id=633,
+ 660.4675pt x 354.32375pt>
 File: Images/ActivityDiagram.png Graphic file (type png)
 
 <use Images/ActivityDiagram.png>
-Package pdftex.def Info: Images/ActivityDiagram.png used on input line 239.
+Package pdftex.def Info: Images/ActivityDiagram.png used on input line 274.
 (pdftex.def)             Requested size: 412.56496pt x 221.33826pt.
 
-Overfull \hbox (22.56496pt too wide) in paragraph at lines 239--240
+Overfull \hbox (22.56496pt too wide) in paragraph at lines 274--275
  [][] 
  []
 
-<Images/StateDiagram.png, id=576, 681.54625pt x 212.795pt>
+<Images/StateDiagram.png, id=634, 681.54625pt x 212.795pt>
 File: Images/StateDiagram.png Graphic file (type png)
 
 <use Images/StateDiagram.png>
-Package pdftex.def Info: Images/StateDiagram.png used on input line 245.
+Package pdftex.def Info: Images/StateDiagram.png used on input line 280.
 (pdftex.def)             Requested size: 412.56496pt x 128.8144pt.
 
-Overfull \hbox (22.56496pt too wide) in paragraph at lines 245--246
+Overfull \hbox (22.56496pt too wide) in paragraph at lines 280--281
  [][] 
  []
 
-) [55 <./Images/ActivityDiagram.png> <./Images/StateDiagram.png>]
+) [61 <./Images/ActivityDiagram.png> <./Images/StateDiagram.png>]
 \openout2 = `Alloy.aux'.
 
  (./Alloy.tex
-<Images/AlloyModel1.png, id=584, 576.1525pt x 604.2575pt>
+<Images/AlloyModel1.png, id=642, 576.1525pt x 604.2575pt>
 File: Images/AlloyModel1.png Graphic file (type png)
 
 <use Images/AlloyModel1.png>
@@ -717,7 +752,7 @@ Overfull \hbox (8.33858pt too wide) in paragraph at lines 5--6
  [][] 
  []
 
-<Images/AlloyModel2.png, id=585, 487.8225pt x 500.87125pt>
+<Images/AlloyModel2.png, id=643, 487.8225pt x 500.87125pt>
 File: Images/AlloyModel2.png Graphic file (type png)
 
 <use Images/AlloyModel2.png>
@@ -728,7 +763,7 @@ Overfull \hbox (8.33858pt too wide) in paragraph at lines 9--10
  [][] 
  []
 
-<Images/AlloyModel3.png, id=586, 442.65375pt x 593.21625pt>
+<Images/AlloyModel3.png, id=644, 442.65375pt x 593.21625pt>
 File: Images/AlloyModel3.png Graphic file (type png)
 
 <use Images/AlloyModel3.png>
@@ -739,11 +774,11 @@ Overfull \hbox (8.33858pt too wide) in paragraph at lines 13--14
  [][] 
  []
 
-[56
+[62
 
 
  <./Images/AlloyModel1.png>]
-<Images/AlloyModel4.png, id=592, 422.57875pt x 579.16376pt>
+<Images/AlloyModel4.png, id=650, 422.57875pt x 579.16376pt>
 File: Images/AlloyModel4.png Graphic file (type png)
 
 <use Images/AlloyModel4.png>
@@ -754,8 +789,8 @@ Overfull \hbox (8.33858pt too wide) in paragraph at lines 17--18
  [][] 
  []
 
-[57 <./Images/AlloyModel2.png>]
-<Images/AlloyModel5.png, id=598, 565.11125pt x 307.1475pt>
+[63 <./Images/AlloyModel2.png>]
+<Images/AlloyModel5.png, id=656, 565.11125pt x 307.1475pt>
 File: Images/AlloyModel5.png Graphic file (type png)
 
 <use Images/AlloyModel5.png>
@@ -766,8 +801,8 @@ Overfull \hbox (8.33858pt too wide) in paragraph at lines 21--22
  [][] 
  []
 
-[58 <./Images/AlloyModel3.png>] [59 <./Images/AlloyModel4.png>]
-<Images/AlloyResult.png, id=610, 543.02875pt x 87.32625pt>
+[64 <./Images/AlloyModel3.png>] [65 <./Images/AlloyModel4.png>]
+<Images/AlloyResult.png, id=667, 543.02875pt x 87.32625pt>
 File: Images/AlloyResult.png Graphic file (type png)
 
 <use Images/AlloyResult.png>
@@ -778,51 +813,57 @@ Overfull \hbox (8.33858pt too wide) in paragraph at lines 26--27
  [][] 
  []
 
-<Images/AlloyWorld.png, id=611, 561.09625pt x 1250.6725pt>
+<Images/AlloyWorld.png, id=668, 561.09625pt x 1250.6725pt>
 File: Images/AlloyWorld.png Graphic file (type png)
 
 <use Images/AlloyWorld.png>
 Package pdftex.def Info: Images/AlloyWorld.png used on input line 31.
 (pdftex.def)             Requested size: 248.92078pt x 554.82874pt.
-) [60 <./Images/AlloyModel5.png> <./Images/AlloyResult.png>] [61 <./Images/Allo
+) [66 <./Images/AlloyModel5.png> <./Images/AlloyResult.png>] [67 <./Images/Allo
 yWorld.png>]
 \openout2 = `Future_development.aux'.
 
- (./Future_development.tex) [62
+ (./Future_development.tex) [68
 
 
 ]
 \openout2 = `Used_tools.aux'.
 
 
-(./Used_tools.tex) [63
+(./Used_tools.tex) [69
 
 
 ]
 \openout2 = `Hours_of_work.aux'.
 
- (./Hours_of_work.tex [64
+ (./Hours_of_work.tex [70
 
 
-]) [65]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
- (./RASD.aux
-(./Introduction.aux) (./Actors.aux) (./Requirements.aux) (./Scenarios.aux)
-(./UML_models.aux) (./Alloy.aux) (./Future_development.aux) (./Used_tools.aux)
-(./Hours_of_work.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
+]) [71]
+\openout2 = `Changelog.aux'.
+
+ (./Changelog.tex)
+[72
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
+ (./RASD.aux (./Introduction.aux) (./Actors.aux) (./Requirements.aux)
+(./Scenarios.aux) (./UML_models.aux) (./Alloy.aux) (./Future_development.aux)
+(./Used_tools.aux) (./Hours_of_work.aux) (./Changelog.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 41.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 41.
 Package rerunfilecheck Info: File `RASD.out' has not changed.
-(rerunfilecheck)             Checksum: 79BBF984BDF7F7723302E98DA88370D0;2913.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
+(rerunfilecheck)             Checksum: 57D0089D81E561485F959C7712672DEC;3087.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
  ) 
 Here is how much of TeX's memory you used:
- 6103 strings out of 494447
- 93485 string characters out of 6166765
- 169053 words of memory out of 5000000
- 9156 multiletter control sequences out of 15000+600000
- 9973 words of font info for 35 fonts, out of 8000000 for 9000
+ 6148 strings out of 494447
+ 94317 string characters out of 6166765
+ 169382 words of memory out of 5000000
+ 9173 multiletter control sequences out of 15000+600000
+ 10320 words of font info for 36 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  29i,13n,30p,477b,440s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/isabellaagosti/Library/texlive/2016basic/texmf-var/fonts/pk/ljfour/j
@@ -831,11 +872,12 @@ public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016basic/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016basic/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2016basic/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on RASD.pdf (65 pages, 10154343 bytes).
+t/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016basic/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on RASD.pdf (72 pages, 9965688 bytes).
 PDF statistics:
- 707 PDF objects out of 1000 (max. 8388607)
- 547 compressed objects within 6 object streams
- 146 named destinations out of 1000 (max. 500000)
- 569 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 774 PDF objects out of 1000 (max. 8388607)
+ 600 compressed objects within 6 object streams
+ 164 named destinations out of 1000 (max. 500000)
+ 608 words of extra memory for PDF output out of 10000 (max. 10000000)
 
