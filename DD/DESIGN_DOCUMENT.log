@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.20)  9 DEC 2016 20:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.20)  11 DEC 2016 12:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -910,7 +910,7 @@ pe1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016basic/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016basic/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016basic/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on DESIGN_DOCUMENT.pdf (49 pages, 4249527 bytes).
+Output written on DESIGN_DOCUMENT.pdf (49 pages, 4249523 bytes).
 PDF statistics:
  688 PDF objects out of 1000 (max. 8388607)
  543 compressed objects within 6 object streams
