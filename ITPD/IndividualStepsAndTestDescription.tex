@@ -1,3 +1,279 @@
-\section{INDIVIDUAL STEPS AND TEST DESCRIPTION}
-For  each  step  of  the  integration  process  above,  describe  the  type  of  tests  that  will  be  used  to  verify  that  the  elements  integrated  in  this  step  perform  as  expected.  Describe  in  general  the  expected  results  of  the  test  set.  You  may  refer  to  Chapter  3  and  Chapter  4  of  the  test  plan  example [1] as an example of what we expect. 
-(NOTE:  This  is  not  a  detailed  description  of  test  protocols.  Think  of  this  as  the  test  design  phase. Specific protocols will be written to fulfill the goals of the tests in this section.) 
+\section{INDIVIDUAL STEPS AND TEST \\DESCRIPTION}
+In this chapter we describe, for each step of the integration process presented before, the type of tests that will be used to verify that the elements integrated in the step perform as expected.  
+
+\subsection{User Manager System}
+\subsubsection{User: Registration by filling out a form}
+\begin{center}
+	\begin{tabular} { | m{4.5cm} | m{8.5cm} | }
+		\hline
+		\textbf{Test Case ID} & \#1\\
+		\hline
+		\textbf{Test Case Name} & User: Registration by filling out a form\\
+		\hline
+		\textbf{Components Involved} & Client Manager, Notification Manager, Registration Manager, Account Generator, DB Access, DB\\
+		\hline
+		\textbf{Precondition} & In case the user wants to use the mobile application, he/she needs to download it first.\\
+		\hline
+		\textbf{Main Path} & 
+		\begin{enumerate}
+			\item The \textbf{Client Manager} sends a registration request to the \textbf{Registration Manager}. 
+			\item The \textbf{Registration Manager} sends back the registration form. 
+			\item Once the form is filled, the \textbf{Client Manager} sends it to the \textbf{Registration Manager}.
+			\item The \textbf{Registration Manager} verifies the data and, if correct, requests the creation of a user to the \textbf{Account Generator}.
+			\item The \textbf{Account Generator} creates the new account and requests access to the \textbf{DB Access} to add the new user. 
+			\item The \textbf{DB Access} adds the user to the \textbf{DB}.
+		\end{enumerate}\\
+		\hline
+		\textbf{Expected Result} & The user receives a password via email and is able to see the website homepage.\\
+		\hline
+	\end{tabular}
+\end{center}
+\newpage
+\subsubsection{User: First login}
+\begin{center}
+	\begin{tabular} { | m{4.5cm} | m{8.5cm} | }
+		\hline
+		\textbf{Test Case ID} & \#2\\
+		\hline
+		\textbf{Test Case Name} & User: First login\\
+		\hline
+		\textbf{Components Involved} & Client Manager, Registration Manager, DB Access, DB\\
+		\hline
+		\textbf{Precondition} & The user has previously registered to the system.\\
+		\hline
+		\textbf{Main Path} & 
+		\begin{enumerate}
+			\item Once the login form is filled, the \textbf{Client Manager} sends it to the \textbf{Registration Manager}.
+			\item The \textbf{Registration Manager} requests access to the \textbf{DB Access}.
+			\item The \textbf{DB Access} formulates a query and sends it to the \textbf{DB}.
+			\item After receiving the query response from the \textbf{DB}, the \textbf{Registration Manager} verifies if the credentials are correct and, if so, logs the user in.
+		\end{enumerate}\\
+		\hline
+		\textbf{Expected Result} & The user is granted the access and is able to see his/her personal page.\\
+		\hline
+	\end{tabular}
+\end{center}
+\newpage
+\subsection{Registered User Manager System}
+\subsubsection{Registered User: Login}
+\begin{center}
+	\begin{tabular} { | m{4.5cm} | m{8.5cm} | }
+		\hline
+		\textbf{Test Case ID} & \#3\\
+		\hline
+		\textbf{Test Case Name} & Registered User: Login\\
+		\hline
+		\textbf{Components Involved} & Client Manager, Account Manager, DB Access, DB\\
+		\hline
+		\textbf{Precondition} & The user has previously completed the registration process and made the first login.\\
+		\hline 
+		\textbf{Main Path} & 
+		\begin{enumerate}
+			\item Once the login form is filled, the \textbf{Client Manager} sends it to the \textbf{Account Manager}.
+			\item The \textbf{Account Manager} requests access to the \textbf{DB Access}.
+			\item The \textbf{DB Access} formulates a query and sends it to the \textbf{DB}.
+			\item After receiving the query response from the \textbf{DB}, the \textbf{Account Manager} verifies if the credentials are correct and, if so, logs the user in.
+		\end{enumerate}\\
+		\hline
+		\textbf{Expected Result} & The registered user is granted the access and is able to see his/her personal page.\\
+		\hline
+	\end{tabular}
+\end{center}
+\newpage
+\subsubsection{Registered User: View profile}
+\begin{center}
+	\begin{tabular} { | m{4.5cm} | m{8.5cm} | }
+		\hline
+		\textbf{Test Case ID} & \#4\\
+		\hline
+		\textbf{Test Case Name} & Registered User: View profile\\
+		\hline
+		\textbf{Components Involved} & Client Manager, Account Manager, DB Access, DB\\
+		\hline
+		\textbf{Precondition} & The registered user is logged into the system.\\
+		\hline 
+		\textbf{Main Path} & 
+		\begin{enumerate}
+			\item The \textbf{Client Manager} sends a view profile request to the \textbf{Account Manager}.
+			\item The \textbf{Account Manager} requests access to the \textbf{DB Access}.
+			\item The \textbf{DB Access} formulates a query and sends it to the \textbf{DB}.
+			\item After receiving the query response from the \textbf{DB}, the \textbf{Account Manager} generates the profile page.
+		\end{enumerate}\\
+		\hline
+		\textbf{Expected Result} & The registered user is able to see his/her profile page.\\
+		\hline
+	\end{tabular}
+\end{center}
+\newpage
+\subsubsection{Registered User: Manage personal information}
+\begin{center}
+	\begin{tabular} { | m{4.5cm} | m{8.5cm} | }
+		\hline
+		\textbf{Test Case ID} & \#5\\
+		\hline
+		\textbf{Test Case Name} & Registered User: Manage personal information\\
+		\hline
+		\textbf{Components Involved} & Client Manager, Account Manager, DB Access, DB\\
+		\hline
+		\textbf{Precondition} & The registered user is logged into the system.\\
+		\hline 
+		\textbf{Main Path} & 
+		\begin{enumerate}
+			\item The \textbf{Client Manager} shows the registered user his/her personal page.
+			\item The registered user applies some changes to his/her information and, once he is finished, the \textbf{Client Manager} sends a save changes request to the \textbf{Account Manager}.
+			\item The \textbf{Account Manager} verifies the correctness of the registered user input. If it is correct, the \textbf{Account Manager} requests access to the \textbf{DB Access}.
+			\item The \textbf{DB Access} updates the information in the \textbf{DB}.
+		\end{enumerate}\\
+		\hline
+		\textbf{Expected Result} & The registered user's personal information is updated and he/she is able to see his/her profile page.\\
+		\hline
+	\end{tabular}
+\end{center}
+\newpage
+\subsubsection{Registered User: Cancel current reservation}
+\begin{center}
+	\begin{tabular} { | m{4.5cm} | m{8.5cm} | }
+		\hline
+		\textbf{Test Case ID} & \#6\\
+		\hline
+		\textbf{Test Case Name} & Registered User: Cancel current reservation\\
+		\hline
+		\textbf{Components Involved} & Client Manager, Account Manager, Reservation Manager, Car Manager, DB Access, DB\\
+		\hline
+		\textbf{Precondition} & The registered user is logged into the system.\\
+		\hline 
+		\textbf{Main Path} & 
+		\begin{enumerate}
+			\item The \textbf{Client Manager} sends a view reservations list request to the \textbf{Account Manager}.
+			\item The \textbf{Account Manager} requests access to the \textbf{DB Access}.
+			\item The \textbf{DB Access} formulates a query and sends it to the \textbf{DB}.
+			\item After receiving the query response from the \textbf{DB}, the \textbf{Account Manager} verifies the registered user reservations existence. If there exist at least one reservation, the \textbf{Account Manager} generates the reservations page. 
+			\item The \textbf{Client Manager} sends a cancel current reservation request to the \textbf{Reservation Manager}.
+			\item The \textbf{Reservation Manager} requests access to the \textbf{DB Access}.
+			\item The \textbf{DB Access} formulates a query and sends it to the \textbf{DB}.
+			\item After receiving the query response from the \textbf{DB}, the \textbf{Account Manager} verifies the existence of the registered user's current reservations. If it exists, the \textbf{Reservation Manager} sends a cancel current reservation request to the \textbf{Car Manager}.
+		\end{enumerate}\\
+	\end{tabular}
+\end{center}
+		
+\begin{center}
+	\begin{tabular} { | m{4.5cm} | m{8.5cm} | }
+		\textbf{Main Path} & 
+		\begin{enumerate}
+			\item [9.] The \textbf{Car Manager} requests access to the \textbf{DB Access}.
+			\item [10.] The \textbf{DB Access} cancels the registered user's current reservation from the \textbf{DB}.
+			\item [11.] After receiving the query response from the \textbf{DB}, the \textbf{Car Manager} updates the car's information.
+		\end{enumerate}\\
+		\hline
+		\textbf{Expected Result} & The registered user's current reservation no longer exists and he/she is able to see his/her past reservations' list with the current reservation labeled as "Deleted".\\
+		\hline
+	\end{tabular}
+\end{center}
+
+\subsubsection{Registered User: Report an issue after unlocking the car}
+\begin{center}
+	\begin{tabular} { | m{4.5cm} | m{8.5cm} | }
+		\hline
+		\textbf{Test Case ID} & \#7\\
+		\hline
+		\textbf{Test Case Name} & Registered User: Report an issue after unlocking the car\\
+		\hline
+		\textbf{Components Involved} & Client Manager, Account Manager, Reservation Manager, Car Manager, DB Access, DB\\
+		\hline
+		\textbf{Precondition} & The registered user has previously logged into the system, made a reservation and selected a car.\\
+		\hline 
+		\textbf{Main Path} & 
+		\begin{enumerate}
+			\item The \textbf{Client Manager} sends a view reservations list request to the \textbf{Account Manager}.
+			\item The \textbf{Account Manager} requests access to the \textbf{DB Access}.
+			\item The \textbf{DB Access} formulates a query and sends it to the \textbf{DB}.
+		\end{enumerate}\\
+	\end{tabular}
+\end{center}
+			
+\begin{center}
+		\begin{tabular} { | m{4.5cm} | m{8.5cm} | }
+			\textbf{Main Path} & 
+			\begin{enumerate}
+				\item [4.]  After receiving the query response from the \textbf{DB}, the \textbf{Account Manager} verifies the registered user reservations existence. If there exist at least one reservation, the \textbf{Account Manager} generates the reservations page. 
+			\item [5.] The \textbf{Client Manager} sends a unlock car in current reservation request to the \textbf{Car Manager}.
+			\item [6.] The \textbf{Car Manager} unlocks the car and the \textbf{Account Manager} generate the car's information page.
+			\item [7.] The \textbf{Client Manager} sends a view reservations list request to the \textbf{Account Manager}.
+			\item [8.] The \textbf{Account Manager} sends a cancel current reservation request to the \textbf{Reservation Manager}.
+			\item [9.] The \textbf{Reservation Manager} requests access to the \textbf{DB Access}.
+			\item [10.] The \textbf{DB Access} cancels the registered user's current reservation from the \textbf{DB}.
+			\item [11.] After receiving the query response from the \textbf{DB}, the \textbf{Car Manager} updates the car's information.
+		\end{enumerate}\\
+		\hline
+		\textbf{Expected Result} & The registered user's current reservation no longer exists and he/she is able to see his/her past reservations' list with the current reservation labeled as "Deleted".\\
+		\hline
+	\end{tabular}
+\end{center}
+\newpage
+\subsection{Employee Manager System}
+\subsubsection{Employee: Manage car's information}
+\begin{center}
+	\begin{tabular} { | m{4.5cm} | m{8.5cm} | }
+		\hline
+		\textbf{Test Case ID} & \#8\\
+		\hline
+		\textbf{Test Case Name} & Employee: Manage car's information\\
+		\hline
+		\textbf{Components Involved} & Client Manager, Car Manager, DB Access, DB\\
+		\hline
+		\textbf{Precondition} & The employee is logged into the system.\\
+		\hline 
+		\textbf{Main Path} & 
+		\begin{enumerate}
+			\item The \textbf{Client Manager} sends a get car's information request to the \textbf{Car Manager}.
+			\item The \textbf{Car Manager} requests access to the \textbf{DB Access}.
+			\item The \textbf{DB Access} formulates a query and sends it to the \textbf{DB}.
+			\item After receiving the query response from the \textbf{DB}, the \textbf{Car Manager} (after verifying the plates existence in case the employee entered a plate) sends the selected car's information to the \textbf{Client Manager}. 
+			\item Once the employee updates the car's information, the \textbf{Client Manager} sends save changes request to the \textbf{Car Manager}.
+			\item The \textbf{Car Manager} verifies the employee's input and, if correct, requests access to the \textbf{DB Access}.
+			\item The \textbf{DB Access} updates the car's information in the \textbf{DB}.
+		\end{enumerate}\\
+	\hline
+	\textbf{Expected Result} & The car’s information is changed and the employee visualizes the list of all PowerEnJoy cars.\\
+	\hline
+	\end{tabular}
+\end{center}
+\newpage
+\subsection{Ride Manager System}
+\subsubsection{Registered User: Make reservation}
+\begin{center}
+	\begin{tabular} { | m{4.5cm} | m{8.5cm} | }
+		\hline
+		\textbf{Test Case ID} & \#9\\
+		\hline
+		\textbf{Test Case Name} & Registered User: Make reservation\\
+		\hline
+		\textbf{Components Involved} & Client Manager, Account Manager, Reservation Manager, Car Manager, Reservation Generator, DB Access, DB\\
+		\hline
+		\textbf{Precondition} & The registered user is logged into the system.\\
+		\hline 
+		\textbf{Main Path} & 
+		\begin{enumerate}
+			\item The \textbf{Client Manager} sends a make reservation request to the \textbf{Car Manager}.
+			\item The \textbf{Car Manager} generates a basic map and sends it to the \textbf{Client Manager}.
+			\item The \textbf{Client Manager} sends either a track my position request or an insert specific address request to the \textbf{Account Manager}.
+			\item The \textbf{Account Manager} verifies either the registered user's GPS or the specific address inserted and, if correct, adds the available cars to the basic map and sends it to the \textbf{Client Manager}.
+			\item The \textbf{Client Manager} sends either an exit request to the \textbf{Account Manager} which generates the registered user's personal page, or a select a car request to the \textbf{Car Manager}.
+			\item The \textbf{Car Manager} sends a generate reservation request to the \textbf{Reservation Generator}.
+			\item The \textbf{Reservation Generator} requests access to the \textbf{DB Access}.
+		\end{enumerate}\\
+	\end{tabular}
+\end{center}
+
+\begin{center}
+	\begin{tabular} { | m{4.5cm} | m{8.5cm} | }
+			\textbf{Main Path} & 
+			\begin{enumerate}
+				\item [8.] The \textbf{DB Access} adds the reservation to the \textbf{DB}.
+			\item [9.]After receiving the query response from the \textbf{DB}, the \textbf{Car Manager} updates the car's information.
+		\end{enumerate}\\
+		\hline
+		\textbf{Expected Result} & The registered user is able to see the page with all his previous and current reservations.\\
+		\hline
+	\end{tabular}
+\end{center}

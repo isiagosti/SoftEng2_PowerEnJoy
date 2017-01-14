@@ -1,3 +1,23 @@
-\section{TOOLS AND TEST EQUIPMENT REQUIRED}
-Identify  all  tools  and  test  equipment  needed  to  accomplish  the  integration.  Refer  to  the  tools  presented during the lectures. Explain why and how you are going to use them.  
-Note  that  you  may  also  use  manual  testing  for  some  part.  Consider  manual  testing  as  one  of  the possible tools you have available. 
+\section{TOOLS AND TEST EQUIPMENT \\REQUIRED}
+In this paragraph we identify  all  tools  and  test  equipment  needed  to  accomplish  the  integration.  
+
+\subsection{Tools}
+In order to test the various components of PowerEnJoy more effectively, we are going to make usage of these automated testing tools:
+\begin{itemize}
+	\item \textbf{Manual testing}, to test the website and the mobile application.
+	\item \textbf{Arquillian}, that allows us to execute test cases against Java containers. \\ \url{http://arquillian.org}
+	\item \textbf{Mockito}, that allows us to abstract dependencies and have predictable results, and also check that the interaction between the tester and the mock is correct. We are going to use it to mock stubs for the components to test. \\ \url{http://site.mockito.org}
+	\item \textbf{JUnit}, that is a simple framework to write repeatable tests. We are going to use it for unit tests on the single components and also for integration testing together with Mockito and Arquillian. \\ \url{http://junit.org/junit4/}
+\end{itemize}
+\newpage
+\subsection{Test Equipment}
+For what concerns the mobile side of the testing environment, the following devices are required:
+\begin{itemize}
+	\item At least one iOS smartphone for each member of the iOS smartphone family.
+	\item At least one iOS tablet for each member of the iOS tablet family.
+	\item At least one Android smartphone for each member of the Android smartphone family.
+	\item At least one Android tablet for each member of the Android tablet family.
+	\item At least one Windows smartphone for each member of the Windows smartphone family.
+\end{itemize}
+The web application will be tested using normal desktop and notebook computers. There are no specific requirements on display resolution nor operating system. The only features required are: Flash Player 11.2 or later, modern browser with AJAX support and Ethernet or Wi-Fi connection.
+

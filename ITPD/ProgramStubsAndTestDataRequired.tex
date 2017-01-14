@@ -1,2 +1,59 @@
-\section{PROGRAM STUBS AND TEST DATA REQUIRED}
-Based  on  the  testing  strategy  and  test  design,  identify  any  program  stubs  or  special  test  data  required for each integration step. 
+\section{PROGRAM STUBS AND TEST DATA \\REQUIRED}
+In this paragraph we identify any program stubs and special test data required for each integration step based on the testing strategy and test design. 
+
+\subsection{Program Stubs and Drivers}
+As we have mentioned in the Integration Testing Strategy section of this document [\ref{integrationstrategy}], we are going to adopt a bottom-up approach for components integration and testing.
+
+Because of this choice, here follows a list of all the drivers that will be developed to actually perform the necessary method invocations on the components to be tested, together with their specific role.
+
+\begin{itemize}
+	\item \textbf{DB Access Driver}, that will invoke the methods exposed by the \textbf{Database Access System} component in order to test its interaction with the \textbf{DB}.
+	\item \textbf{Account Generator Driver}, that will invoke the methods exposed by the \textbf{Account Generator} component, in order to test its interaction with the \textbf{DB Access} component.
+	\item \textbf{Registration Manager Driver}, that will invoke the methods exposed by the \textbf{Registration Manager} component, in order to test its interaction with the \textbf{DB Access}, the \textbf{Notification Manager} and the \textbf{Account Generator} components.
+	\item \textbf{Car Manager Driver}, that will invoke the methods exposed by the \textbf{Car Manager} component, in order to test its interaction with the \textbf{DB Access} and the \textbf{Reservation Generator} components.
+	\item \textbf{Reservation Manager Driver}, that will invoke the methods exposed by the \textbf{Reservation Manager} component, in order to test its interaction with the \textbf{DB Access}, the \textbf{Notification Manager} and the \textbf{Car Manager} components.
+	\item \textbf{Account Manager Driver}, that will invoke the methods exposed by the \textbf{Account Manager} component, in order to test its interaction with the \textbf{DB Access}, the \textbf{Car Manager} and the \textbf{Reservation Manager} components.
+	\item \textbf{Reservation Generator Driver}, that will invoke the methods exposed by the \textbf{Reservation Generator} component, in order to test its interaction with the \textbf{DB Access} component.
+\end{itemize}
+Since the entire system is not yet fully developed, in order to perform integration testing we need to use stubs to simulate the presence of clients until they are fully developed.
+
+\subsection{Test Data}
+In order to be able to perform the set of tests that we have specified, we are going to need:
+\begin{itemize}
+	\item A list of both valid and invalid candidate users to test the \textbf{Registration Manager} and the \textbf{Account Generator} components. The set should contain instances exhibiting the following problems: 
+	\begin{itemize}
+		\item Null object.
+		\item Null fields.
+		\item Username already taken. 
+		\item Driver license not compliant with the legal format.
+		\item Invalid card code.
+		\item Invalid card number.
+		\item Invalid email.
+	\end{itemize}
+	\item A list of both valid and invalid candidate registered users and employees to test the \textbf{Account Manager} component. The set should contain instances exhibiting the following problems: 
+	\begin{itemize}
+		\item Null object.
+		\item Null fields.
+		\item Invalid username/password.
+		\item Username already taken. 
+		\item Driver license not compliant with the legal format.
+		\item Invalid card code.
+		\item Invalid card number.
+		\item Invalid email.
+		\item Invalid address.
+		\item GPS not active.
+	\end{itemize}
+	\item A list of both valid and invalid candidate registered users and employees to test the \textbf{Reservation Manager} component. The set should contain instances exhibiting the following problems: 
+	\begin{itemize}
+		\item Null object.
+		\item No current or past reservations.
+	\end{itemize}
+\item A list of both valid and invalid candidate registered users and employees to test the \textbf{Car Manager} component. The set should contain instances exhibiting the following problems: 
+\begin{itemize}
+	\item Null object.
+	\item Null fields.
+	\item Invalid plate.
+	\item Invalid values entered into the fields.
+	\item No car selected.
+\end{itemize}
+\end{itemize}

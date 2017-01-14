@@ -1,18 +1,154 @@
 \section{INTEGRATION STRATEGY}
+\label{integrationstrategy}
 \subsection{Entry Criteria}
-Specify  the  criteria  that  must  be  met  before  integration  testing  of  specific  elements may begin (e.g., functions must have been unit tested).  
+In order for the integration testing to be possible and to produce meaningful results, there are some criteria that  must be met.
+
+First of all, \textit{RASD} and \textit{DD} must have been fully written. This is required in order to have a complete overview of the interactions between the different components of the system and of the functionalities they offer.
+
+Secondly, all the application's functionalities and components must be able to correctly interact with one another. 
    
 \subsection{Elements to be Integrated}
-Identify  the  components  to  be  integrated,  refer  to  your  design  document  to  identify such components in a way that is consistent with your design.
+The components that need to be  integrated, referring to our \textit{DD}, are:
 
+\begin{itemize}
+	\item \textbf{Client}, that provides a \textbf{User Interface} and a connection between client and server through the \textbf{Connection Manager}. 
+	\item \textbf{Employee Manager}, that provides an \textbf{Account Manager} for the login process and a \textbf{Car Manager} to manage the information of the company's cars.
+	\item \textbf{User Manager}, that provides a \textbf{Registration Manager}, \textbf{Notification Manager} and \textbf{Email Gateway} for the registration process and an \textbf{Account Generator} for the first login.
+	\item \textbf{Registered User Manager}, that provides an \textbf{Account Manager} for the login, view profile, manage personal information, view promotions, view reservations list functionalities, and a \textbf{Reservation Manager} to cancel a reservation.
+	\item \textbf{Ride Manager}, that provides a \textbf{Reservation Manager} to make a reservation, a \textbf{Car Manager} to generate a map with the available cars, a \textbf{Reservation Generator} to create a reservation, a \textbf{Notification Manager} and \textbf{Email Gateway} to send a notification in case a car is abandoned for more than ten minutes.
+\end{itemize}
+\newpage
 \subsection{Integration Testing Strategy}
-Describe the integration testing approach (topOdown, bottomOup, functional groupings, etc.) and the rationale for the choosing that approach. 
+We will adopt a bottom-up testing strategy, integrating first the subcomponents and then the higher level components. 
 
-\subsection{Sequence of Component/Function Integration} NOTE:    The  structure  of  this  section  may  vary  depending  on  the  integration  strategy  you select in Section 2.3; use the structure proposed below as a non mandatory guide.
+Using this approach, we will start integrating together those components that do not depend on others, or that only depend on already developed components.  
+
+Doing so, we can start performing the integration testing as soon as the required components have been developed, in order to maximize parallelism and efficiency.
+
+\subsection{Sequence of Component/Function Integration} 
+Since we chose to adopt a bottom-up strategy, we will start from the lower level component and then move upward. 
+
+As a notation, an arrow going from component C1 to component C2 means that C1 is necessary for C2 and so it must have already been implemented.
 
 \subsubsection{Software  Integration  Sequence}
-For  each  subsystem,  identify  the  sequence  in  which  the  software  components  will  be  integrated  within  the  subsystem;  relate  this  sequence to any product features that are being built up.  
+In this section we identify the sequence in which the software components will be integrated within each  subsystem.
 
-\subsubsection{Subsystem  Integration  Sequence}  
-Identify  the  order  in  which  subsystems  will  be  integrated;  if  you  have  a  single  subsystem,  2.4.1  and  2.4.2  are  to  be  merged  in  a  single section.   
-You can refer to Section 2.2 of the test plan example [1] as an example. 
+\subsubsection*{Database Access System}
+The first two components to be integrated are the \textbf{Database} and the \textbf{Database Access}. We start from here because every other component relies on the \textbf{Database Access System} to perform queries.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{DatabaseAccessSystem}
+\end{figure}
+\newpage
+\subsubsection*{User Manager System}
+Since the user is the main actor of our application, the second step in the integration process is to appropriately connect the subcomponents implementing the \textbf{User Manager System}. 
+
+In the following diagrams, we show which components are going to be integrated together and in which order, following the bottom-up approach.
+
+First, we proceed by integrating together the \textbf{Account Generator} subcomponent with the \textbf{Database Access System}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{UserManagerAccountGenerator}
+\end{figure}
+
+Then, we proceed by integrating together the \textbf{Registration Manager} subcomponent with the \textbf{Database Access System} and the \textbf{Notification Manager}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=14cm]{UserManagerRegistrationManager}
+\end{figure}
+
+At this point, the two subcomponents of the \textbf{User Manager System} are ready to be integrated together.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=14cm]{UserManagerSystem}
+\end{figure}
+
+\subsubsection*{Registered User Manager System}
+The third step in the integration process is to appropriately connect the subcomponents implementing the \textbf{Registered User Manager System}.
+
+In the following diagrams, we show which components are going to be integrated together and in which order, following the bottom-up approach.
+
+First, we proceed by integrating together the \textbf{Car Manager} subcomponent with the \textbf{Database Access System}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{RegUserMgrCarManager}
+\end{figure}
+
+Then, we proceed by integrating together the \textbf{Reservation Manager} subcomponent with the \textbf{Database Access System}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{RegUserMgrReservationManager}
+\end{figure}
+
+Then, we proceed by integrating together the \textbf{Account Manager} subcomponent with the \textbf{Database Access System}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{RegUserMgrAccountManager}
+\end{figure}
+\newpage
+At this point, the three subcomponents of the \textbf{Registered User Manager System} are ready to be integrated together.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{RegisteredUserManagerSystem}
+\end{figure}
+\newpage
+\subsubsection*{Employee Manager System}
+The fourth step in the integration process is to appropriately connect the subcomponents implementing the \textbf{Employee Manager System}.
+
+In the following diagrams, we show which components are going to be integrated together and in which order, following the bottom-up approach.
+
+First, we proceed by integrating together the \textbf{Car Manager} subcomponent with the \textbf{Database Access System}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{EmployeeMgrCarManager}
+\end{figure}
+
+Then, we proceed by integrating together the \textbf{Account Manager} subcomponent with the \textbf{Database Access System}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{EmployeeMgrAccountManager}
+\end{figure}
+
+At this point, the two subcomponents of the \textbf{Employee Manager System} are ready to be integrated together.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{EmployeeManagerSystem}
+\end{figure}
+\newpage
+\subsubsection*{Ride Manager System}
+The last step in the integration process is to appropriately connect the subcomponents implementing the \textbf{Ride Manager System}.
+
+In the following diagrams, we show which components are going to be integrated together and in which order, following the bottom-up approach.
+
+First, we proceed by integrating together the \textbf{Reservation Generator} subcomponent with the \textbf{Database Access System}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=9cm]{RideMgrReservationGenerator}
+\end{figure}
+
+Then, we proceed by integrating together the \textbf{Car Manager} subcomponent with the \textbf{Database Access System}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=9cm]{RideMgrCarManager}
+\end{figure}
+
+Then, we proceed by integrating together the \textbf{Reservation Manager} subcomponent with the \textbf{Database Access System} and the \textbf{Notification Manager}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=10cm]{RideMgrReservationManager}
+\end{figure}
+
+At this point, the three subcomponents of the \textbf{Ride Manager System} are ready to be integrated together.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=14cm]{RideManagerSystem}
+\end{figure}
+\newpage
+\subsubsection{Subsystem  Integration  Sequence} 
+In the following diagram we present the  order  in  which  subsystems  will  be  integrated to create the full PowerEnJoy infrastructure.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=14cm]{SubsystemIntegrationSequence}
+\end{figure}

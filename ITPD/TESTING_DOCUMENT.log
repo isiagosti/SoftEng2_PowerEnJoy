@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.20)  9 DEC 2016 16:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.20)  13 JAN 2017 14:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -351,7 +351,7 @@ LaTeX Info: Redefining \nameref on input line 28.
 \openout3 = `TESTING_DOCUMENT.out'.
 
 
-<Images/polimi_logo.png, id=68, 301.125pt x 301.125pt>
+<Images/polimi_logo.png, id=152, 301.125pt x 301.125pt>
 File: Images/polimi_logo.png Graphic file (type png)
 
 <use Images/polimi_logo.png>
@@ -371,103 +371,374 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
-)
+[2])
 \tf@toc=\write4
 \openout4 = `TESTING_DOCUMENT.toc'.
 
- [2]
+ [3]
 \openout2 = `Introduction.aux'.
 
  (./Introduction.tex
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ¢ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ¢ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ¢ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ¢ in font cmr12!
-) [3
+Overfull \hbox (1.38895pt too wide) in paragraph at lines 7--7
+[]|\OT1/cmr/bx/n/12 Version| 
+ []
+
+
+Overfull \hbox (1.47493pt too wide) in paragraph at lines 9--9
+[]|\OT1/cmr/m/n/12 15/01/17| 
+ []
+
+
+Overfull \hbox (1.43301pt too wide) in paragraph at lines 5--14
+ [][] 
+ []
+
+[4
 
 ]
+Underfull \hbox (badness 1221) in paragraph at lines 43--44
+[]|\OT1/cmr/m/n/12 Arrangement through which a reg-is-tered user
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 24--54
+ [] 
+ []
+
+[5]
+Underfull \hbox (badness 3219) in paragraph at lines 62--63
+[]|\OT1/cmr/m/n/12 Requirements Anal-y-sis and Spec-i-fi-ca-tion
+ []
+
+
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 58--73
+ [] 
+ []
+
+) [6]
 \openout2 = `Integration_Strategy.aux'.
 
- (./Integration_Strategy.tex) [4
+ (./Integration_Strategy.tex [7
 
 
 ]
+Overfull \hbox (11.11087pt too wide) in paragraph at lines 37--38
+\OT1/cmr/m/n/12 The first two com-po-nents to be in-te-grated are the \OT1/cmr/
+bx/n/12 Database \OT1/cmr/m/n/12 and the \OT1/cmr/bx/n/12 Database
+ []
+
+<Images/DatabaseAccessSystem.png, id=232, 455.7025pt x 94.3525pt>
+File: Images/DatabaseAccessSystem.png Graphic file (type png)
+
+<use Images/DatabaseAccessSystem.png>
+Package pdftex.def Info: Images/DatabaseAccessSystem.png used on input line 41.
+
+(pdftex.def)             Requested size: 284.52756pt x 58.91257pt.
+ [8 <./Images/DatabaseAccessSystem.png>]
+<Images/UserManagerAccountGenerator.png, id=239, 405.515pt x 94.3525pt>
+File: Images/UserManagerAccountGenerator.png Graphic file (type png)
+
+<use Images/UserManagerAccountGenerator.png>
+Package pdftex.def Info: Images/UserManagerAccountGenerator.png used on input l
+ine 52.
+(pdftex.def)             Requested size: 284.52756pt x 66.2032pt.
+
+<Images/UserManagerRegistrationManager.png, id=240, 626.34pt x 94.3525pt>
+File: Images/UserManagerRegistrationManager.png Graphic file (type png)
+
+<use Images/UserManagerRegistrationManager.png>
+Package pdftex.def Info: Images/UserManagerRegistrationManager.png used on inpu
+t line 58.
+(pdftex.def)             Requested size: 398.33858pt x 60.00818pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 58--59
+ [][] 
+ []
+
+<Images/UserManagerSystem.png, id=241, 626.34pt x 244.915pt>
+File: Images/UserManagerSystem.png Graphic file (type png)
+
+<use Images/UserManagerSystem.png>
+Package pdftex.def Info: Images/UserManagerSystem.png used on input line 64.
+(pdftex.def)             Requested size: 398.33858pt x 155.76593pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 64--65
+ [][] 
+ []
+
+[9 <./Images/UserManagerAccountGenerator.png> <./Images/UserManagerRegistration
+Manager.png> <./Images/UserManagerSystem.png>]
+<Images/RegUserMgrCarManager.png, id=250, 405.515pt x 94.3525pt>
+File: Images/RegUserMgrCarManager.png Graphic file (type png)
+
+<use Images/RegUserMgrCarManager.png>
+Package pdftex.def Info: Images/RegUserMgrCarManager.png used on input line 75.
+
+(pdftex.def)             Requested size: 284.52756pt x 66.2032pt.
+
+<Images/RegUserMgrReservationManager.png, id=251, 405.515pt x 94.3525pt>
+File: Images/RegUserMgrReservationManager.png Graphic file (type png)
+
+<use Images/RegUserMgrReservationManager.png>
+Package pdftex.def Info: Images/RegUserMgrReservationManager.png used on input 
+line 81.
+(pdftex.def)             Requested size: 284.52756pt x 66.2032pt.
+
+<Images/RegUserMgrAccountManager.png, id=252, 405.515pt x 94.3525pt>
+File: Images/RegUserMgrAccountManager.png Graphic file (type png)
+
+<use Images/RegUserMgrAccountManager.png>
+Package pdftex.def Info: Images/RegUserMgrAccountManager.png used on input line
+ 87.
+(pdftex.def)             Requested size: 284.52756pt x 66.2032pt.
+ [10 <./Images/RegUserMgrCarManager.png> <./Images/RegUserMgrReservationManager
+.png> <./Images/RegUserMgrAccountManager.png>]
+<Images/RegisteredUserManagerSystem.png, id=261, 443.6575pt x 335.2525pt>
+File: Images/RegisteredUserManagerSystem.png Graphic file (type png)
+
+<use Images/RegisteredUserManagerSystem.png>
+Package pdftex.def Info: Images/RegisteredUserManagerSystem.png used on input l
+ine 93.
+(pdftex.def)             Requested size: 284.52756pt x 215.0008pt.
+ [11 <./Images/RegisteredUserManagerSystem.png>]
+<Images/EmployeeMgrCarManager.png, id=267, 405.515pt x 94.3525pt>
+File: Images/EmployeeMgrCarManager.png Graphic file (type png)
+
+<use Images/EmployeeMgrCarManager.png>
+Package pdftex.def Info: Images/EmployeeMgrCarManager.png used on input line 10
+4.
+(pdftex.def)             Requested size: 284.52756pt x 66.2032pt.
+
+<Images/EmployeeMgrAccountManager.png, id=268, 405.515pt x 94.3525pt>
+File: Images/EmployeeMgrAccountManager.png Graphic file (type png)
+
+<use Images/EmployeeMgrAccountManager.png>
+Package pdftex.def Info: Images/EmployeeMgrAccountManager.png used on input lin
+e 110.
+(pdftex.def)             Requested size: 284.52756pt x 66.2032pt.
+
+<Images/EmployeeManagerSystem.png, id=269, 443.6575pt x 214.8025pt>
+File: Images/EmployeeManagerSystem.png Graphic file (type png)
+
+<use Images/EmployeeManagerSystem.png>
+Package pdftex.def Info: Images/EmployeeManagerSystem.png used on input line 11
+6.
+(pdftex.def)             Requested size: 284.52756pt x 137.755pt.
+ [12 <./Images/EmployeeMgrCarManager.png> <./Images/EmployeeMgrAccountManager.p
+ng> <./Images/EmployeeManagerSystem.png>] <Images/RideMgrReservationGenerator.p
+ng, id=278, 405.515pt x 94.3525pt>
+File: Images/RideMgrReservationGenerator.png Graphic file (type png)
+
+<use Images/RideMgrReservationGenerator.png>
+Package pdftex.def Info: Images/RideMgrReservationGenerator.png used on input l
+ine 127.
+(pdftex.def)             Requested size: 256.0748pt x 59.58347pt.
+
+<Images/RideMgrCarManager.png, id=279, 405.515pt x 94.3525pt>
+File: Images/RideMgrCarManager.png Graphic file (type png)
+
+<use Images/RideMgrCarManager.png>
+Package pdftex.def Info: Images/RideMgrCarManager.png used on input line 133.
+(pdftex.def)             Requested size: 256.0748pt x 59.58347pt.
+
+<Images/RideMgrReservationManager.png, id=280, 626.34pt x 94.3525pt>
+File: Images/RideMgrReservationManager.png Graphic file (type png)
+
+<use Images/RideMgrReservationManager.png>
+Package pdftex.def Info: Images/RideMgrReservationManager.png used on input lin
+e 139.
+(pdftex.def)             Requested size: 284.52756pt x 42.86278pt.
+
+<Images/RideManagerSystem.png, id=281, 848.16875pt x 225.84375pt>
+File: Images/RideManagerSystem.png Graphic file (type png)
+
+<use Images/RideManagerSystem.png>
+Package pdftex.def Info: Images/RideManagerSystem.png used on input line 145.
+(pdftex.def)             Requested size: 398.33858pt x 106.0673pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 145--146
+ [][] 
+ []
+
+[13 <./Images/RideMgrReservationGenerator.png> <./Images/RideMgrCarManager.png>
+ <./Images/RideMgrReservationManager.png> <./Images/RideManagerSystem.png>]
+<Images/SubsystemIntegrationSequence.png, id=292, 865.2325pt x 910.40125pt>
+File: Images/SubsystemIntegrationSequence.png Graphic file (type png)
+
+<use Images/SubsystemIntegrationSequence.png>
+Package pdftex.def Info: Images/SubsystemIntegrationSequence.png used on input 
+line 153.
+(pdftex.def)             Requested size: 398.33858pt x 419.13695pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 153--154
+ [][] 
+ []
+
+) [14 <./Images/SubsystemIntegrationSequence.png>]
 \openout2 = `IndividualStepsAndTestDescription.aux'.
 
 
 (./IndividualStepsAndTestDescription.tex
-Overfull \hbox (29.6714pt too wide) in paragraph at lines 1--1
-[]\OT1/cmr/bx/n/17.28 INDIVIDUAL STEPS AND TEST DE-SCRIP-
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 1.
+
+
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 7--30
+ [] 
  []
 
-) [5
+[15
 
 
 ]
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 34--55
+ [] 
+ []
+
+[16]
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 60--81
+ [] 
+ []
+
+[17]
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 85--106
+ [] 
+ []
+
+[18]
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 110--131
+ [] 
+ []
+
+[19]
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 135--157
+ [] 
+ []
+
+
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 160--171
+ [] 
+ []
+
+[20]
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 175--192
+ [] 
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 200--201
+\OT1/cmr/m/n/12 the \OT1/cmr/bx/n/12 Ac-count Man-ager \OT1/cmr/m/n/12 gen-er-a
+te the
+ []
+
+
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 195--211
+ [] 
+ []
+
+[21] [22]
+Underfull \hbox (badness 2096) in paragraph at lines 233--234
+[]\OT1/cmr/m/n/12 The \OT1/cmr/bx/n/12 Car Man-ager \OT1/cmr/m/n/12 ver-i-fies 
+the em-
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 216--240
+ [] 
+ []
+
+[23]
+Underfull \hbox (badness 1019) in paragraph at lines 262--263
+[]\OT1/cmr/m/n/12 The \OT1/cmr/bx/n/12 Car Man-ager \OT1/cmr/m/n/12 sends a gen
+-er-ate
+ []
+
+
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 245--266
+ [] 
+ []
+
+
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 269--279
+ [] 
+ []
+
+[24]) [25]
 \openout2 = `ToolsAndTestEquipmentRequired.aux'.
 
  (./ToolsAndTestEquipmentRequired.tex
-Overfull \hbox (45.9513pt too wide) in paragraph at lines 1--1
-[]\OT1/cmr/bx/n/17.28 TOOLS AND TEST EQUIP-MENT RE-QUIRED 
- []
 
-) [6
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 1.
+
+[26
 
 
-]
+]) [27]
 \openout2 = `ProgramStubsAndTestDataRequired.aux'.
 
  (./ProgramStubsAndTestDataRequired.tex
-Overfull \hbox (12.48918pt too wide) in paragraph at lines 1--1
-[]\OT1/cmr/bx/n/17.28 PROGRAM STUBS AND TEST DATA RE-
- []
 
-) [7
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 1.
+
+[28
 
 
-]
+] [29]) [30]
 \openout2 = `EffortSpent.aux'.
 
- (./EffortSpent.tex) [8
+ (./EffortSpent.tex) [31
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
- (./TESTING_DOCUMENT.aux (./Introduction.aux)
-(./Integration_Strategy.aux) (./IndividualStepsAndTestDescription.aux)
-(./ToolsAndTestEquipmentRequired.aux) (./ProgramStubsAndTestDataRequired.aux)
-(./EffortSpent.aux))
+ (./TESTING_DOCUMENT.aux
+(./Introduction.aux) (./Integration_Strategy.aux)
+(./IndividualStepsAndTestDescription.aux) (./ToolsAndTestEquipmentRequired.aux)
+(./ProgramStubsAndTestDataRequired.aux) (./EffortSpent.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 37.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 37.
 Package rerunfilecheck Info: File `TESTING_DOCUMENT.out' has not changed.
-(rerunfilecheck)             Checksum: 92D1E922C9CB6D4DEB43F1C3A7D990C6;1142.
+(rerunfilecheck)             Checksum: 171513E5653D1C5C6282BEB03836C27F;2835.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 5730 strings out of 494447
- 86898 string characters out of 6166765
- 162960 words of memory out of 5000000
- 8959 multiletter control sequences out of 15000+600000
- 9115 words of font info for 32 fonts, out of 8000000 for 9000
+ 5936 strings out of 494447
+ 91214 string characters out of 6166765
+ 168012 words of memory out of 5000000
+ 9050 multiletter control sequences out of 15000+600000
+ 9968 words of font info for 35 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 29i,7n,30p,447b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr12.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr17.pfb>
-Output written on TESTING_DOCUMENT.pdf (8 pages, 84570 bytes).
+ 29i,11n,34p,428b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/isabellaagosti/Library/texlive/2016basic/texmf-var/fonts/pk/ljfour/j
+knappen/ec/tcrm1200.600pk></usr/local/texlive/2016basic/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016basic/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016basic/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016basic/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on TESTING_DOCUMENT.pdf (31 pages, 344954 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
- 134 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 473 PDF objects out of 1000 (max. 8388607)
+ 396 compressed objects within 4 object streams
+ 122 named destinations out of 1000 (max. 500000)
+ 382 words of extra memory for PDF output out of 10000 (max. 10000000)
 
