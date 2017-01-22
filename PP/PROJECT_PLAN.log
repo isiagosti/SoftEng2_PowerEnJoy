@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.20)  20 JAN 2017 09:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.20)  22 JAN 2017 18:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3031,7 +3031,7 @@ Here is how much of TeX's memory you used:
  9896 multiletter control sequences out of 15000+600000
  10924 words of font info for 39 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 29i,13n,30p,655b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,13n,30p,659b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/isabellaagosti/Library/texlive/2016basic/texmf-var/fonts/pk/ljfour/j
 knappen/ec/tcrm1200.600pk></usr/local/texlive/2016basic/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/ty
@@ -3044,7 +3044,7 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016basic/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016ba
 sic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
 6basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on PROJECT_PLAN.pdf (31 pages, 289493 bytes).
+Output written on PROJECT_PLAN.pdf (31 pages, 291000 bytes).
 PDF statistics:
  407 PDF objects out of 1000 (max. 8388607)
  353 compressed objects within 4 object streams
