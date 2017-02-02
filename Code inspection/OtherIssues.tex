@@ -1,0 +1,10 @@
+\section{OTHER ISSUES}
+In this paragraph we list all the parts of code that we think create or may create a bug (or minor issues) and we explain why.
+
+\begin{itemize}
+	\item Since the methods \textit{getLowIndex} and \textit{getHighIndex} do more or less the same thing, they should have been put one after the other to improve readability. 
+	\item All the \textit{get} methods (getter) should be grouped together, instead of having some at the beginning and some others at the end.
+	\item The method \textit{getViewIndex} at \textbf{L.267} should be eliminated and incorporated into the method \textit{getViewIndex} at \textbf{L.257}.
+	\item The methods \textit{getListSize}, \textit{getHighIndex} and \textit{getLowIndex} do the exact same thing and could be incorporated into a single method with the addition of a second \textit{String} parameter to be passed to the \textit{get} method called on the \textit{context}.
+	\item The methods \textit{getViewIndex} and \textit{getViewSize} contain duplicated code.
+\end{itemize} 

@@ -1,0 +1,111 @@
+\section{LIST OF ISSUES}
+In this paragraph we report the code fragments that do not fulfill some points in the check list, explaining which point is not fulfilled and why.
+
+\subsection{Paginator class}
+\begin{itemize}
+	\item \textbf{L.2$\rightarrow$8, L.10, L.13$\rightarrow$16} do not break after a comma, nor an operator.
+	\item \textbf{L.18} exceeds 80 characters.
+	\item \textbf{L.38}, the comment does not adequately explain what the class does.
+	\item \textbf{L.43}, the \textit{module} attribute is a constant, so it should be declared using all uppercase. Also, it would be better if the \textit{module} attribute was private and invoked using getter and setter.
+\end{itemize}
+\subsection{getActualPageSize: Line 45 $\Rightarrow$ Line 48}
+\begin{itemize}
+	\item This method is not commented.
+	\item \textbf{L.46}, the \textit{value} variable should be of type \textit{int} instead of \textit{Integer}.
+	\item \textbf{L.47}, the use of Functional Java causes low readability. Also, the line exceeds 80 characters.
+\end{itemize}
+
+\subsection{getHighIndex: Line 50 $\Rightarrow$ Line 53}
+\begin{itemize}
+	\item This method is not commented.
+	\item \textbf{L.51}, the \textit{value} variable should be of type \textit{int} instead of \textit{Integer}.
+	\item \textbf{L.52}, the use of Functional Java causes low readability.
+\end{itemize}
+
+\subsection{getListLimits: Line 55 $\Rightarrow$ Line 100}
+\begin{itemize}
+	\item This method is not commented.
+	\item \textbf{L.55, L.75} exceed 80 characters.
+	\item \textbf{L.61, L.65, L.76} have only one statement to execute and it is surrounded by curly braces, but the opened curly brace is on the same line of the statement (differently from what is shown in the \textit{Code Inspection Assignment Task Description.pdf} example).
+	\item \textbf{L.62} does not have a reason for being commented out, nor a date identifying when it can be removed from the source file if determined it is no longer needed.
+	\item \textbf{L.68}, the error message is comprehensive (prints the exception, a description of the error and the name of the class where the error occurred) but does not provide guidance as to how to correct the problem.
+	\item \textbf{L.74, L.76} both use the "Kernighan and Ritchie" bracing style (first brace is on the same line of the instruction that opens the new block), but there is no blank space between the if condition and the curly brace.
+\end{itemize}
+
+\subsection{getListSize: Line 102 $\Rightarrow$ Line 105}
+\begin{itemize}
+	\item This method is not commented.
+	\item \textbf{L.103}, the \textit{value} variable should be of type \textit{int} instead of \textit{Integer}.
+	\item \textbf{L.104}, the use of Functional Java causes low readability.
+\end{itemize}
+
+\subsection{getLowIndex: Line 107 $\Rightarrow$ Line 110}
+\begin{itemize}
+	\item This method is not commented.
+	\item \textbf{L.108}, the \textit{value} variable should be of type \textit{int} instead of \textit{Integer}.
+	\item \textbf{L.109}, the use of Functional Java causes low readability.
+\end{itemize}
+
+\subsection{getViewIndex: Line 112 $\Rightarrow$ Line 142}
+\begin{itemize}
+	\item This method is not commented.
+	\item \textbf{L.112, L.119, L.121, L.139} exceed 80 characters.
+	\item \textbf{L.117$\rightarrow$127}, three nested if cause low readability.
+	\item \textbf{L.119}, the \textit{cast} method returns a \textit{V} object, but the \textit{parameters} variable is of type \textit{Map\(<\)String, Object\(>\)}.
+	\item \textbf{L.123, L.133, L.135, L.138} have only one statement to execute and it is surrounded by curly braces, but the opened curly brace is on the same line of the statement (differently from what is shown in the \textit{Code Inspection Assignment Task Description.pdf} example).
+	\item \textbf{L.139}, the error message is comprehensive (prints the exception, a description of the error and the name of the class where the error occurred) but does not provide guidance as to how to correct the problem.
+\end{itemize}
+
+\subsection{getViewSize: Line 144 $\Rightarrow$ Line 174}
+\begin{itemize}
+	\item This method is not commented.
+	\item \textbf{L.144, L.151, L.153, L.167, L.171} exceed 80 characters. 
+	\item \textbf{L.151}, the \textit{cast} method returns a \textit{V} object, but the \textit{parameters} variable is of type \textit{Map\(<\)String, Object\(>\)}.
+	\item \textbf{L.155, L.165, L.167, L.170} have only one statement to execute and it is surrounded by curly braces, but the open curly brace is on the same line of the statement (differently from what is shown in the \textit{Code Inspection Assignment Task Description.pdf} example).
+	\item \textbf{L.171}, the error message is comprehensive (prints the exception, a description of the error and the name of the class where the error occurred) but does not provide guidance as to how to correct the problem.
+\end{itemize}
+
+\subsection{preparePager: Line 176 $\Rightarrow$ Line 242}
+\begin{itemize}
+	\item This method is not commented.
+	\item This method is too long (67 lines of code).
+	\item \textbf{L.176, L.206, L.231, L.239} exceed 80 characters.
+	\item \textbf{L.180, L.186, L.239}, the error message is comprehensive (prints a description of the error, the name of the class where the error occurred and sometimes the exception) but does not provide guidance as to how to correct the problem.
+	\item \textbf{L.183, L.191, L.203, L.204, L.205, L.218, L.219}, variables are not declared at the beginning of any block, instead they are declared in the middle.
+	\item \textbf{L.185, L.214} have only one statement to execute but it is not surrounded by curly braces.
+	\item \textbf{L.186} exceeds 120 characters. 
+	\item \textbf{L.187}, the new statement is not aligned with the beginning of the expression at the same level as the previous line (the \textit{module} word should be aligned with the open parenthesis of the previous line).
+	\item \textbf{L.192, L.194, L.196, L.236, L.238} have only one statement to execute and it is surrounded by curly braces, but the open curly brace is on the same line of the statement (differently from what is shown in the \textit{Code Inspection Assignment Task Description.pdf} example).
+	\item \textbf{L.195}, the \textit{listIterator} method returns a \textit{ListIterator} but the \textit{iter} variable is of type \textit{Iterator}.
+	\item \textbf{L.206, L.225} represent commented out code that contains a reason for being commented out, but it does not provide a date it can be removed from the source file if determined it is no longer needed.
+	\item \textbf{L.231}, the use of Functional Java causes low readability.
+\end{itemize}
+
+\subsection{safeNext: Line 244 $\Rightarrow$ Line 250}
+\begin{itemize}
+	\item This method is not commented.
+	\item \textbf{L.245, L.247} have only one statement to execute and it is surrounded by curly braces, but the open curly brace is on the same line of the statement (differently from what is shown in the \textit{Code Inspection Assignment Task Description.pdf} example).
+	\item \textbf{L.248}, the exception in the catch block is not logged, nor handled.
+\end{itemize}
+
+\subsection{getViewIndex: Line 252 $\Rightarrow$ Line 259}
+\begin{itemize}
+	\item This method should return \textit{int} instead of \textit{Integer}.
+	\item \textbf{L.255, L.257} exceed 80 characters.
+\end{itemize}
+
+\subsection{getViewIndex: Line 261 $\Rightarrow$ Line 269}
+\begin{itemize}
+	\item This method should return \textit{int} instead of \textit{Integer}.
+	\item \textbf{L.265} exceeds 80 characters.
+	\item \textbf{L.267} exceeds 120 characters.
+\end{itemize}
+
+\subsection{getViewSize: Line 271 $\Rightarrow$ Line 283}
+\begin{itemize}
+	\item This method should return \textit{int} instead of \textit{Integer}.
+	\item \textbf{L.274} does not break after a comma, nor an operator.
+	\item \textbf{L.277, L.278} exceed 80 characters.
+	\item \textbf{L.278}, the \textit{getPropertyAsInteger} method returns an \textit{Integer} but the \textit{defaultSize} variable is of type \textit{int}.
+	\item \textbf{L.279} has only one statement to execute and it is surrounded by curly braces, but the open curly brace is on the same line of the statement (differently from what is shown in the \textit{Code Inspection Assignment Task Description.pdf} example).
+\end{itemize}

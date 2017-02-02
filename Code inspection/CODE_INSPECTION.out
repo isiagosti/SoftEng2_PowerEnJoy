@@ -1,0 +1,18 @@
+\BOOKMARK [1][-]{section.1}{ASSIGNED CLASS}{}% 1
+\BOOKMARK [1][-]{section.2}{FUNCTIONAL ROLE}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Paginator class}{section.2}% 3
+\BOOKMARK [1][-]{section.3}{LIST OF ISSUES}{}% 4
+\BOOKMARK [2][-]{subsection.3.1}{Paginator class}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.2}{getActualPageSize: Line 45 \040Line 48}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.3}{getHighIndex: Line 50 \040Line 53}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.4}{getListLimits: Line 55 \040Line 100}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.5}{getListSize: Line 102 \040Line 105}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.6}{getLowIndex: Line 107 \040Line 110}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.7}{getViewIndex: Line 112 \040Line 142}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.8}{getViewSize: Line 144 \040Line 174}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.9}{preparePager: Line 176 \040Line 242}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.10}{safeNext: Line 244 \040Line 250}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.11}{getViewIndex: Line 252 \040Line 259}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.12}{getViewIndex: Line 261 \040Line 269}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.13}{getViewSize: Line 271 \040Line 283}{section.3}% 17
+\BOOKMARK [1][-]{section.4}{OTHER ISSUES}{}% 18
