@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.20)  13 JAN 2017 14:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.20)  2 FEB 2017 12:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -389,6 +389,26 @@ Overfull \hbox (1.47493pt too wide) in paragraph at lines 9--9
  []
 
 
+Underfull \hbox (badness 4084) in paragraph at lines 9--9
+[]|\OT1/cmr/m/n/12 Isabella Agosti, Car-olina
+ []
+
+
+Overfull \hbox (1.47493pt too wide) in paragraph at lines 11--11
+[]|\OT1/cmr/m/n/12 02/02/17| 
+ []
+
+
+Underfull \hbox (badness 4084) in paragraph at lines 11--11
+[]|\OT1/cmr/m/n/12 Isabella Agosti, Car-olina
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 11--12
+\OT1/cmr/m/n/12 added to the reg-is-
+ []
+
+
 Overfull \hbox (1.43301pt too wide) in paragraph at lines 5--14
  [][] 
  []
@@ -496,23 +516,33 @@ Package pdftex.def Info: Images/RegUserMgrReservationManager.png used on input
 line 81.
 (pdftex.def)             Requested size: 284.52756pt x 66.2032pt.
 
-<Images/RegUserMgrAccountManager.png, id=252, 405.515pt x 94.3525pt>
+<Images/RegUserMgrAccountManager.png, id=252, 624.3325pt x 92.345pt>
 File: Images/RegUserMgrAccountManager.png Graphic file (type png)
 
 <use Images/RegUserMgrAccountManager.png>
 Package pdftex.def Info: Images/RegUserMgrAccountManager.png used on input line
  87.
-(pdftex.def)             Requested size: 284.52756pt x 66.2032pt.
- [10 <./Images/RegUserMgrCarManager.png> <./Images/RegUserMgrReservationManager
-.png> <./Images/RegUserMgrAccountManager.png>]
-<Images/RegisteredUserManagerSystem.png, id=261, 443.6575pt x 335.2525pt>
+(pdftex.def)             Requested size: 398.33858pt x 58.91881pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 87--88
+ [][] 
+ []
+
+[10 <./Images/RegUserMgrCarManager.png> <./Images/RegUserMgrReservationManager.
+png> <./Images/RegUserMgrAccountManager.png>]
+<Images/RegisteredUserManagerSystem.png, id=261, 624.3325pt x 333.245pt>
 File: Images/RegisteredUserManagerSystem.png Graphic file (type png)
 
 <use Images/RegisteredUserManagerSystem.png>
 Package pdftex.def Info: Images/RegisteredUserManagerSystem.png used on input l
 ine 93.
-(pdftex.def)             Requested size: 284.52756pt x 215.0008pt.
- [11 <./Images/RegisteredUserManagerSystem.png>]
+(pdftex.def)             Requested size: 398.33858pt x 212.6201pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 93--94
+ [][] 
+ []
+
+[11 <./Images/RegisteredUserManagerSystem.png>]
 <Images/EmployeeMgrCarManager.png, id=267, 405.515pt x 94.3525pt>
 File: Images/EmployeeMgrCarManager.png Graphic file (type png)
 
@@ -574,13 +604,13 @@ Overfull \hbox (8.33858pt too wide) in paragraph at lines 145--146
 
 [13 <./Images/RideMgrReservationGenerator.png> <./Images/RideMgrCarManager.png>
  <./Images/RideMgrReservationManager.png> <./Images/RideManagerSystem.png>]
-<Images/SubsystemIntegrationSequence.png, id=292, 865.2325pt x 910.40125pt>
+<Images/SubsystemIntegrationSequence.png, id=292, 862.22125pt x 908.39375pt>
 File: Images/SubsystemIntegrationSequence.png Graphic file (type png)
 
 <use Images/SubsystemIntegrationSequence.png>
 Package pdftex.def Info: Images/SubsystemIntegrationSequence.png used on input 
 line 153.
-(pdftex.def)             Requested size: 398.33858pt x 419.13695pt.
+(pdftex.def)             Requested size: 398.33858pt x 419.66812pt.
 
 Overfull \hbox (8.33858pt too wide) in paragraph at lines 153--154
  [][] 
@@ -645,12 +675,16 @@ te the
  []
 
 
-Overfull \hbox (5.0858pt too wide) in paragraph at lines 195--211
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 195--213
  [] 
  []
 
-[21] [22]
-Underfull \hbox (badness 2096) in paragraph at lines 233--234
+[21]
+Overfull \vbox (11.48332pt too high) has occurred while \output is active []
+
+
+[22]
+Underfull \hbox (badness 2096) in paragraph at lines 235--236
 []\OT1/cmr/m/n/12 The \OT1/cmr/bx/n/12 Car Man-ager \OT1/cmr/m/n/12 ver-i-fies 
 the em-
  []
@@ -659,23 +693,23 @@ Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-Overfull \hbox (5.0858pt too wide) in paragraph at lines 216--240
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 218--242
  [] 
  []
 
 [23]
-Underfull \hbox (badness 1019) in paragraph at lines 262--263
+Underfull \hbox (badness 1019) in paragraph at lines 264--265
 []\OT1/cmr/m/n/12 The \OT1/cmr/bx/n/12 Car Man-ager \OT1/cmr/m/n/12 sends a gen
 -er-ate
  []
 
 
-Overfull \hbox (5.0858pt too wide) in paragraph at lines 245--266
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 247--268
  [] 
  []
 
 
-Overfull \hbox (5.0858pt too wide) in paragraph at lines 269--279
+Overfull \hbox (5.0858pt too wide) in paragraph at lines 271--281
  [] 
  []
 
@@ -723,7 +757,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
 Here is how much of TeX's memory you used:
  5936 strings out of 494447
  91214 string characters out of 6166765
- 168012 words of memory out of 5000000
+ 169012 words of memory out of 5000000
  9050 multiletter control sequences out of 15000+600000
  9968 words of font info for 35 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
@@ -735,7 +769,7 @@ pe1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016basic/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016basic/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016basic/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on TESTING_DOCUMENT.pdf (31 pages, 344954 bytes).
+Output written on TESTING_DOCUMENT.pdf (31 pages, 340396 bytes).
 PDF statistics:
  473 PDF objects out of 1000 (max. 8388607)
  396 compressed objects within 4 object streams

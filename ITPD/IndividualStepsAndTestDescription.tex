@@ -198,11 +198,13 @@ In this chapter we describe, for each step of the integration process presented 
 				\item [4.]  After receiving the query response from the \textbf{DB}, the \textbf{Account Manager} verifies the registered user reservations existence. If there exist at least one reservation, the \textbf{Account Manager} generates the reservations page. 
 			\item [5.] The \textbf{Client Manager} sends a unlock car in current reservation request to the \textbf{Car Manager}.
 			\item [6.] The \textbf{Car Manager} unlocks the car and the \textbf{Account Manager} generate the car's information page.
-			\item [7.] The \textbf{Client Manager} sends a view reservations list request to the \textbf{Account Manager}.
+			\item [7.] The \textbf{Client Manager} sends a report issue request to the \textbf{Account Manager}.
 			\item [8.] The \textbf{Account Manager} sends a cancel current reservation request to the \textbf{Reservation Manager}.
 			\item [9.] The \textbf{Reservation Manager} requests access to the \textbf{DB Access}.
 			\item [10.] The \textbf{DB Access} cancels the registered user's current reservation from the \textbf{DB}.
 			\item [11.] After receiving the query response from the \textbf{DB}, the \textbf{Car Manager} updates the car's information.
+			\item [12.] The \textbf{Account Manager} generates the reservations list page and sends a confirmation message to the \textbf{Notification Manager}.
+			\item [13.] The \textbf{Notification Manager} sends an email to the registered user.
 		\end{enumerate}\\
 		\hline
 		\textbf{Expected Result} & The registered user's current reservation no longer exists and he/she is able to see his/her past reservations' list with the current reservation labeled as "Deleted".\\

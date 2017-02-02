@@ -104,12 +104,15 @@ The user manager has five subcomponents:
 \end{figure}
 \newpage
 \subsubsection{Registered user manager component}
-The registered user manager has four subcomponents:
+The registered user manager has seven subcomponents:
 \begin{enumerate}
 	\item \textbf{Connection manager}.
 	\item \textbf{Reservation manager}.
 	\item \textbf{Database access component}.
 	\item \textbf{Account manager}.
+	\item \textbf{Notification manager}.
+	\item \textbf{Email gateway}.
+	\item \textbf{Car manager}.
 \end{enumerate}
 \begin{figure}[H]
 	\centering
@@ -202,6 +205,7 @@ This section contains a more detailed description of all the application's inter
 	\item \textbf{User manager interface}, which provides methods through which the client can send a registration request to the server.
 	\item \textbf{Ride manager interface}, provides methods through which the client can send requests to the server (i.e. make a reservation, cancel reservation).
 	\item \textbf{Network interface}, which provides methods to manage the sending and receiving of information with users, server and database.
+	\item \textbf{Email gateway interface}, which provides methods to manage the sending and receiving of emails between users and server.
 \end{itemize}
 \subsubsection{Ride manager interfaces}
 \begin{itemize}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.20)  22 JAN 2017 18:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.20)  2 FEB 2017 12:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -827,13 +827,28 @@ Overfull \hbox (1.47493pt too wide) in paragraph at lines 10--10
  []
 
 
+Underfull \hbox (badness 4084) in paragraph at lines 10--10
+[]|\OT1/cmr/m/n/12 Isabella Agosti, Car-olina
+ []
+
+
+Overfull \hbox (1.47493pt too wide) in paragraph at lines 12--12
+[]|\OT1/cmr/m/n/12 02/02/17| 
+ []
+
+
+Underfull \hbox (badness 4084) in paragraph at lines 12--12
+[]|\OT1/cmr/m/n/12 Isabella Agosti, Car-olina
+ []
+
+
 Overfull \hbox (1.43301pt too wide) in paragraph at lines 6--15
  [][] 
  []
 
 [3
 
-]
+] [4]
 Underfull \hbox (badness 1221) in paragraph at lines 54--55
 []|\OT1/cmr/m/n/12 Arrangement through which a reg-is-tered user
  []
@@ -843,7 +858,7 @@ Overfull \hbox (5.0858pt too wide) in paragraph at lines 35--65
  [] 
  []
 
-[4]
+[5]
 Underfull \hbox (badness 3219) in paragraph at lines 73--74
 []|\OT1/cmr/m/n/12 Requirements Anal-y-sis and Spec-i-fi-ca-tion
  []
@@ -859,7 +874,7 @@ Overfull \hbox (1.00813pt too wide) in paragraph at lines 104--105
 n-ning ex-am-ple doc-u-ment.pdf\OT1/cmr/m/n/12 . 
  []
 
-) [5]
+) [6]
 \openout2 = `Project.aux'.
 
  (./Project.tex
@@ -867,17 +882,17 @@ Overfull \hbox (6.47122pt too wide) in paragraph at lines 1--1
 []\OT1/cmr/bx/n/17.28 PROJECT SIZE, COST AND EF-FORT ES-
  []
 
-<Images/ComplexityWeights.png, id=185, 462.72874pt x 198.7425pt>
+<Images/ComplexityWeights.png, id=189, 462.72874pt x 198.7425pt>
 File: Images/ComplexityWeights.png Graphic file (type png)
 
 <use Images/ComplexityWeights.png>
 Package pdftex.def Info: Images/ComplexityWeights.png used on input line 15.
 (pdftex.def)             Requested size: 341.43306pt x 146.64864pt.
- [6
+ [7
 
 
  <./Images/ComplexityWeights.png>]
-[7] [8] [9] [10]
+[8] [9] [10] [11]
 Underfull \hbox (badness 10000) in paragraph at lines 208--208
 []|\OT1/cmr/bx/n/12 Scale
  []
@@ -1227,7 +1242,7 @@ Overfull \hbox (27.25203pt too wide) in paragraph at lines 206--221
  [][] 
  []
 
-[11]
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 261--261
 []|\OT1/cmr/bx/n/12 RELY
  []
@@ -1302,7 +1317,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--265
 \OT1/cmr/bx/n/12 Mul-ti-
  []
 
-[12]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 280--280
 []|\OT1/cmr/bx/n/12 DATA
  []
@@ -1367,7 +1382,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 301--301
 \OT1/cmr/bx/n/12 Mul-ti-
  []
 
-[13]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 316--316
 []|\OT1/cmr/bx/n/12 RUSE
  []
@@ -1537,7 +1552,7 @@ Overfull \hbox (18.71614pt too wide) in paragraph at lines 330--342
  [][] 
  []
 
-[14]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 354--354
 []|\OT1/cmr/bx/n/12 TIME
  []
@@ -1747,7 +1762,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 377--377
 \OT1/cmr/bx/n/12 Mul-ti-
  []
 
-[15]
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 392--392
 []|\OT1/cmr/bx/n/12 PVOL
  []
@@ -1907,7 +1922,7 @@ Overfull \hbox (1.6452pt too wide) in paragraph at lines 406--418
  [][] 
  []
 
-[16]
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 430--430
 []|\OT1/cmr/bx/n/12 PCAP
  []
@@ -2037,7 +2052,7 @@ Overfull \hbox (1.6452pt too wide) in paragraph at lines 444--456
  [][] 
  []
 
-[17]
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 468--468
 []|\OT1/cmr/bx/n/12 APEX
  []
@@ -2127,7 +2142,7 @@ Overfull \hbox (1.64429pt too wide) in paragraph at lines 482--494
  [][] 
  []
 
-[18]
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 506--506
 []|\OT1/cmr/bx/n/12 LTEX
  []
@@ -2352,7 +2367,7 @@ Overfull \hbox (1.64474pt too wide) in paragraph at lines 520--532
  [][] 
  []
 
-[19]
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 544--544
 []|\OT1/cmr/bx/n/12 SITE
  []
@@ -2582,7 +2597,7 @@ Overfull \hbox (10.1802pt too wide) in paragraph at lines 539--553
  [][] 
  []
 
-[20]
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []|\OT1/cmr/bx/n/12 SCED
  []
@@ -2642,11 +2657,11 @@ Overfull \hbox (3.25941pt too wide) in paragraph at lines 577--602
  [][] 
  []
 
-[21]) [22]
+[22]) [23]
 \openout2 = `Schedule.aux'.
 
  (./Schedule.tex
-<Images/Gantt.png, id=286, 1333.98375pt x 1305.87875pt>
+<Images/Gantt.png, id=290, 1333.98375pt x 1305.87875pt>
 File: Images/Gantt.png Graphic file (type png)
  <use Images/Gantt.png>
 Package pdftex.def Info: Images/Gantt.png used on input line 8.
@@ -2656,7 +2671,7 @@ Overfull \hbox (8.33858pt too wide) in paragraph at lines 8--9
  [][] 
  []
 
-) [23
+) [24
 
 
  <./Images/Gantt.png>]
@@ -2742,7 +2757,7 @@ Overfull \hbox (5.08578pt too wide) in paragraph at lines 59--71
  [][] 
  []
 
-[24
+[25
 
 
 ]
@@ -2940,7 +2955,7 @@ Overfull \hbox (7.12346pt too wide) in paragraph at lines 93--105
  [][] 
  []
 
-[25]
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 117--117
 []|\OT1/cmr/m/n/12 System de-ploy-
  []
@@ -3000,16 +3015,16 @@ Overfull \hbox (6.10486pt too wide) in paragraph at lines 127--139
  [][] 
  []
 
-) [26] [27]
+) [27] [28]
 \openout2 = `RiskManagement.aux'.
 
- (./RiskManagement.tex [28
+ (./RiskManagement.tex [29
 
 
-] [29]) [30]
+] [30]) [31]
 \openout2 = `EffortSpent.aux'.
 
- (./EffortSpent.tex) [31
+ (./EffortSpent.tex) [32
 
 
 ]
@@ -3025,13 +3040,13 @@ Package rerunfilecheck Info: File `PROJECT_PLAN.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
  ) 
 Here is how much of TeX's memory you used:
- 6783 strings out of 494447
- 97407 string characters out of 6166765
+ 6784 strings out of 494447
+ 97414 string characters out of 6166765
  186346 words of memory out of 5000000
  9896 multiletter control sequences out of 15000+600000
  10924 words of font info for 39 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 29i,13n,30p,659b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,13n,30p,659b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/isabellaagosti/Library/texlive/2016basic/texmf-var/fonts/pk/ljfour/j
 knappen/ec/tcrm1200.600pk></usr/local/texlive/2016basic/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016basic/texmf-dist/fonts/ty
@@ -3044,10 +3059,10 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016basic/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016ba
 sic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
 6basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on PROJECT_PLAN.pdf (31 pages, 291000 bytes).
+Output written on PROJECT_PLAN.pdf (32 pages, 291403 bytes).
 PDF statistics:
- 407 PDF objects out of 1000 (max. 8388607)
- 353 compressed objects within 4 object streams
- 103 named destinations out of 1000 (max. 500000)
+ 411 PDF objects out of 1000 (max. 8388607)
+ 356 compressed objects within 4 object streams
+ 104 named destinations out of 1000 (max. 500000)
  256 words of extra memory for PDF output out of 10000 (max. 10000000)
 

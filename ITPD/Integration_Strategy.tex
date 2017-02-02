@@ -14,7 +14,7 @@ The components that need to be  integrated, referring to our \textit{DD}, are:
 	\item \textbf{Client}, that provides a \textbf{User Interface} and a connection between client and server through the \textbf{Connection Manager}. 
 	\item \textbf{Employee Manager}, that provides an \textbf{Account Manager} for the login process and a \textbf{Car Manager} to manage the information of the company's cars.
 	\item \textbf{User Manager}, that provides a \textbf{Registration Manager}, \textbf{Notification Manager} and \textbf{Email Gateway} for the registration process and an \textbf{Account Generator} for the first login.
-	\item \textbf{Registered User Manager}, that provides an \textbf{Account Manager} for the login, view profile, manage personal information, view promotions, view reservations list functionalities, and a \textbf{Reservation Manager} to cancel a reservation.
+	\item \textbf{Registered User Manager}, that provides an \textbf{Account Manager} for the login, view profile, manage personal information, view promotions, view reservations list functionalities, a \textbf{Reservation Manager}, \textbf{Car Manager}, \textbf{Notification Manager} and \textbf{Email Gateway} to cancel reservations and report issues.
 	\item \textbf{Ride Manager}, that provides a \textbf{Reservation Manager} to make a reservation, a \textbf{Car Manager} to generate a map with the available cars, a \textbf{Reservation Generator} to create a reservation, a \textbf{Notification Manager} and \textbf{Email Gateway} to send a notification in case a car is abandoned for more than ten minutes.
 \end{itemize}
 \newpage
@@ -84,13 +84,13 @@ Then, we proceed by integrating together the \textbf{Reservation Manager} subcom
 Then, we proceed by integrating together the \textbf{Account Manager} subcomponent with the \textbf{Database Access System}.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=10cm]{RegUserMgrAccountManager}
+	\includegraphics[width=14cm]{RegUserMgrAccountManager}
 \end{figure}
 \newpage
 At this point, the three subcomponents of the \textbf{Registered User Manager System} are ready to be integrated together.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=10cm]{RegisteredUserManagerSystem}
+	\includegraphics[width=14cm]{RegisteredUserManagerSystem}
 \end{figure}
 \newpage
 \subsubsection*{Employee Manager System}

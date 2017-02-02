@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.20)  9 DEC 2016 20:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.20)  2 FEB 2017 11:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -688,12 +688,12 @@ File: Images/Reservation.png Graphic file (type png)
 Package pdftex.def Info: Images/Reservation.png used on input line 249.
 (pdftex.def)             Requested size: 288.42279pt x 554.82874pt.
  [56 <./Images/ViewProfile.png> <./Images/ManageInfo.png>] <Images/ReportIssue.
-png, id=610, 596.2275pt x 692.5875pt>
+png, id=610, 595.22375pt x 690.58pt>
 File: Images/ReportIssue.png Graphic file (type png)
 
 <use Images/ReportIssue.png>
 Package pdftex.def Info: Images/ReportIssue.png used on input line 254.
-(pdftex.def)             Requested size: 384.1122pt x 446.1924pt.
+(pdftex.def)             Requested size: 384.1122pt x 445.64723pt.
  [57 <./Images/Reservation.png>] [58 <./Images/ReportIssue.png>] <Images/Cancel
 Res.png, id=621, 596.2275pt x 742.775pt>
 File: Images/CancelRes.png Graphic file (type png)
@@ -842,8 +842,13 @@ yWorld.png>]
 ]) [71]
 \openout2 = `Changelog.aux'.
 
- (./Changelog.tex)
-[72
+ (./Changelog.tex
+Overfull \hbox (2.47644pt too wide) in paragraph at lines 12--13
+[]\OT1/cmr/m/n/12 Functionality of send-ing an email to the reg-is-tered user a
+f-ter he/she
+ []
+
+) [72
 
 
 ]
@@ -874,7 +879,7 @@ pe1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016basic/texmf-dist/fonts
 nts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2016basic/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2016basic/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on RASD.pdf (72 pages, 9965688 bytes).
+Output written on RASD.pdf (72 pages, 9956933 bytes).
 PDF statistics:
  774 PDF objects out of 1000 (max. 8388607)
  600 compressed objects within 6 object streams
